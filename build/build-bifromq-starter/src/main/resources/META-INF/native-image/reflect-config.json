@@ -1,0 +1,2815 @@
+[
+{
+  "name":"[Ljava.lang.invoke.MethodHandles$Lookup$ClassOption;"
+},
+{
+  "name":"[Lorg.apache.logging.log4j.core.Appender;"
+},
+{
+  "name":"[Lorg.apache.logging.log4j.core.Filter;"
+},
+{
+  "name":"[Lorg.apache.logging.log4j.core.appender.rolling.TriggeringPolicy;"
+},
+{
+  "name":"[Lorg.apache.logging.log4j.core.appender.rolling.action.Action;"
+},
+{
+  "name":"[Lorg.apache.logging.log4j.core.appender.routing.Route;"
+},
+{
+  "name":"[Lorg.apache.logging.log4j.core.config.AppenderRef;"
+},
+{
+  "name":"[Lorg.apache.logging.log4j.core.config.LoggerConfig;"
+},
+{
+  "name":"[Lorg.apache.logging.log4j.core.config.Property;"
+},
+{
+  "name":"android.app.Application"
+},
+{
+  "name":"com.fasterxml.jackson.core.JsonParser"
+},
+{
+  "name":"com.fasterxml.jackson.databind.JsonNode"
+},
+{
+  "name":"com.fasterxml.jackson.databind.ObjectMapper"
+},
+{
+  "name":"com.fasterxml.jackson.databind.ext.Java7SupportImpl",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.fasterxml.jackson.dataformat.yaml.YAMLFactory"
+},
+{
+  "name":"com.github.benmanes.caffeine.cache.AsyncCacheLoader",
+  "methods":[{"name":"asyncLoadAll","parameterTypes":["java.util.Set","java.util.concurrent.Executor"] }]
+},
+{
+  "name":"com.github.benmanes.caffeine.cache.BBHeader$ReadAndWriteCounterRef",
+  "fields":[{"name":"writeCounter"}]
+},
+{
+  "name":"com.github.benmanes.caffeine.cache.BBHeader$ReadCounterRef",
+  "fields":[{"name":"readCounter"}]
+},
+{
+  "name":"com.github.benmanes.caffeine.cache.BaseMpscLinkedArrayQueueColdProducerFields",
+  "fields":[{"name":"producerLimit"}]
+},
+{
+  "name":"com.github.benmanes.caffeine.cache.BaseMpscLinkedArrayQueueConsumerFields",
+  "fields":[{"name":"consumerIndex"}]
+},
+{
+  "name":"com.github.benmanes.caffeine.cache.BaseMpscLinkedArrayQueueProducerFields",
+  "fields":[{"name":"producerIndex"}]
+},
+{
+  "name":"com.github.benmanes.caffeine.cache.CacheLoader",
+  "methods":[{"name":"loadAll","parameterTypes":["java.util.Set"] }]
+},
+{
+  "name":"com.github.benmanes.caffeine.cache.FS",
+  "fields":[{"name":"key"}, {"name":"value"}],
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.github.benmanes.caffeine.cache.PS",
+  "fields":[{"name":"key"}, {"name":"value"}]
+},
+{
+  "name":"com.github.benmanes.caffeine.cache.PSA",
+  "fields":[{"name":"accessTime"}],
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.github.benmanes.caffeine.cache.PSAR",
+  "fields":[{"name":"writeTime"}],
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.github.benmanes.caffeine.cache.PSARMW",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.github.benmanes.caffeine.cache.PSMS",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.github.benmanes.caffeine.cache.PSW",
+  "fields":[{"name":"writeTime"}],
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.github.benmanes.caffeine.cache.PSWMS",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.github.benmanes.caffeine.cache.PW",
+  "fields":[{"name":"value"}],
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.github.benmanes.caffeine.cache.SI",
+  "fields":[{"name":"FACTORY"}]
+},
+{
+  "name":"com.github.benmanes.caffeine.cache.SSA",
+  "fields":[{"name":"FACTORY"}]
+},
+{
+  "name":"com.github.benmanes.caffeine.cache.SSAR",
+  "fields":[{"name":"FACTORY"}]
+},
+{
+  "name":"com.github.benmanes.caffeine.cache.SSLA",
+  "fields":[{"name":"FACTORY"}]
+},
+{
+  "name":"com.github.benmanes.caffeine.cache.SSLMSW",
+  "fields":[{"name":"FACTORY"}]
+},
+{
+  "name":"com.github.benmanes.caffeine.cache.SSLSA",
+  "fields":[{"name":"FACTORY"}]
+},
+{
+  "name":"com.github.benmanes.caffeine.cache.SSMS",
+  "fields":[{"name":"FACTORY"}]
+},
+{
+  "name":"com.github.benmanes.caffeine.cache.SSMSW",
+  "fields":[{"name":"FACTORY"}]
+},
+{
+  "name":"com.github.benmanes.caffeine.cache.SSSMWAR",
+  "fields":[{"name":"FACTORY"}]
+},
+{
+  "name":"com.github.benmanes.caffeine.cache.StripedBuffer",
+  "fields":[{"name":"tableBusy"}]
+},
+{
+  "name":"com.github.benmanes.caffeine.cache.WS",
+  "fields":[{"name":"FACTORY"}]
+},
+{
+  "name":"com.google.common.util.concurrent.AbstractFuture",
+  "fields":[{"name":"listeners"}, {"name":"value"}, {"name":"waiters"}]
+},
+{
+  "name":"com.google.common.util.concurrent.AbstractFuture$Waiter",
+  "fields":[{"name":"next"}, {"name":"thread"}]
+},
+{
+  "name":"com.google.inject.AbstractModule",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"com.google.inject.KotlinSupportImpl"
+},
+{
+  "name":"com.google.inject.internal.Annotations",
+  "methods":[{"name":"determineAnnotationToStringConfig","parameterTypes":[] }]
+},
+{
+  "name":"com.google.inject.internal.InjectorShell$RootModule",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"com.google.inject.name.Named",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"com.google.inject.util.Modules$EmptyModule",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"com.google.protobuf.DescriptorMessageInfoFactory",
+  "methods":[{"name":"getInstance","parameterTypes":[] }]
+},
+{
+  "name":"com.google.protobuf.DescriptorProtos$FeatureSet",
+  "methods":[{"name":"getEnforceNamingStyle","parameterTypes":[] }, {"name":"getEnumType","parameterTypes":[] }, {"name":"getFieldPresence","parameterTypes":[] }, {"name":"getJsonFormat","parameterTypes":[] }, {"name":"getMessageEncoding","parameterTypes":[] }, {"name":"getRepeatedFieldEncoding","parameterTypes":[] }, {"name":"getUtf8Validation","parameterTypes":[] }, {"name":"hasEnforceNamingStyle","parameterTypes":[] }, {"name":"hasEnumType","parameterTypes":[] }, {"name":"hasFieldPresence","parameterTypes":[] }, {"name":"hasJsonFormat","parameterTypes":[] }, {"name":"hasMessageEncoding","parameterTypes":[] }, {"name":"hasRepeatedFieldEncoding","parameterTypes":[] }, {"name":"hasUtf8Validation","parameterTypes":[] }]
+},
+{
+  "name":"com.google.protobuf.DescriptorProtos$FeatureSet$Builder",
+  "methods":[{"name":"clearEnforceNamingStyle","parameterTypes":[] }, {"name":"clearEnumType","parameterTypes":[] }, {"name":"clearFieldPresence","parameterTypes":[] }, {"name":"clearJsonFormat","parameterTypes":[] }, {"name":"clearMessageEncoding","parameterTypes":[] }, {"name":"clearRepeatedFieldEncoding","parameterTypes":[] }, {"name":"clearUtf8Validation","parameterTypes":[] }, {"name":"getEnforceNamingStyle","parameterTypes":[] }, {"name":"getEnumType","parameterTypes":[] }, {"name":"getFieldPresence","parameterTypes":[] }, {"name":"getJsonFormat","parameterTypes":[] }, {"name":"getMessageEncoding","parameterTypes":[] }, {"name":"getRepeatedFieldEncoding","parameterTypes":[] }, {"name":"getUtf8Validation","parameterTypes":[] }, {"name":"hasEnforceNamingStyle","parameterTypes":[] }, {"name":"hasEnumType","parameterTypes":[] }, {"name":"hasFieldPresence","parameterTypes":[] }, {"name":"hasJsonFormat","parameterTypes":[] }, {"name":"hasMessageEncoding","parameterTypes":[] }, {"name":"hasRepeatedFieldEncoding","parameterTypes":[] }, {"name":"hasUtf8Validation","parameterTypes":[] }, {"name":"setEnforceNamingStyle","parameterTypes":["com.google.protobuf.DescriptorProtos$FeatureSet$EnforceNamingStyle"] }, {"name":"setEnumType","parameterTypes":["com.google.protobuf.DescriptorProtos$FeatureSet$EnumType"] }, {"name":"setFieldPresence","parameterTypes":["com.google.protobuf.DescriptorProtos$FeatureSet$FieldPresence"] }, {"name":"setJsonFormat","parameterTypes":["com.google.protobuf.DescriptorProtos$FeatureSet$JsonFormat"] }, {"name":"setMessageEncoding","parameterTypes":["com.google.protobuf.DescriptorProtos$FeatureSet$MessageEncoding"] }, {"name":"setRepeatedFieldEncoding","parameterTypes":["com.google.protobuf.DescriptorProtos$FeatureSet$RepeatedFieldEncoding"] }, {"name":"setUtf8Validation","parameterTypes":["com.google.protobuf.DescriptorProtos$FeatureSet$Utf8Validation"] }]
+},
+{
+  "name":"com.google.protobuf.DescriptorProtos$FeatureSet$EnforceNamingStyle",
+  "methods":[{"name":"getValueDescriptor","parameterTypes":[] }, {"name":"valueOf","parameterTypes":["com.google.protobuf.Descriptors$EnumValueDescriptor"] }]
+},
+{
+  "name":"com.google.protobuf.DescriptorProtos$FeatureSet$EnumType",
+  "methods":[{"name":"getValueDescriptor","parameterTypes":[] }, {"name":"valueOf","parameterTypes":["com.google.protobuf.Descriptors$EnumValueDescriptor"] }]
+},
+{
+  "name":"com.google.protobuf.DescriptorProtos$FeatureSet$FieldPresence",
+  "methods":[{"name":"getValueDescriptor","parameterTypes":[] }, {"name":"valueOf","parameterTypes":["com.google.protobuf.Descriptors$EnumValueDescriptor"] }]
+},
+{
+  "name":"com.google.protobuf.DescriptorProtos$FeatureSet$JsonFormat",
+  "methods":[{"name":"getValueDescriptor","parameterTypes":[] }, {"name":"valueOf","parameterTypes":["com.google.protobuf.Descriptors$EnumValueDescriptor"] }]
+},
+{
+  "name":"com.google.protobuf.DescriptorProtos$FeatureSet$MessageEncoding",
+  "methods":[{"name":"getValueDescriptor","parameterTypes":[] }, {"name":"valueOf","parameterTypes":["com.google.protobuf.Descriptors$EnumValueDescriptor"] }]
+},
+{
+  "name":"com.google.protobuf.DescriptorProtos$FeatureSet$RepeatedFieldEncoding",
+  "methods":[{"name":"getValueDescriptor","parameterTypes":[] }, {"name":"valueOf","parameterTypes":["com.google.protobuf.Descriptors$EnumValueDescriptor"] }]
+},
+{
+  "name":"com.google.protobuf.DescriptorProtos$FeatureSet$Utf8Validation",
+  "methods":[{"name":"getValueDescriptor","parameterTypes":[] }, {"name":"valueOf","parameterTypes":["com.google.protobuf.Descriptors$EnumValueDescriptor"] }]
+},
+{
+  "name":"com.google.protobuf.ExtensionRegistry",
+  "methods":[{"name":"getEmptyRegistry","parameterTypes":[] }]
+},
+{
+  "name":"com.google.protobuf.ListValue",
+  "methods":[{"name":"newBuilder","parameterTypes":[] }]
+},
+{
+  "name":"com.google.protobuf.NullValue",
+  "methods":[{"name":"getValueDescriptor","parameterTypes":[] }, {"name":"valueOf","parameterTypes":["com.google.protobuf.Descriptors$EnumValueDescriptor"] }]
+},
+{
+  "name":"com.google.protobuf.Struct",
+  "methods":[{"name":"getDefaultInstance","parameterTypes":[] }, {"name":"newBuilder","parameterTypes":[] }]
+},
+{
+  "name":"com.google.protobuf.Value",
+  "methods":[{"name":"getBoolValue","parameterTypes":[] }, {"name":"getKindCase","parameterTypes":[] }, {"name":"getListValue","parameterTypes":[] }, {"name":"getNullValue","parameterTypes":[] }, {"name":"getNullValueValue","parameterTypes":[] }, {"name":"getNumberValue","parameterTypes":[] }, {"name":"getStringValue","parameterTypes":[] }, {"name":"getStringValueBytes","parameterTypes":[] }, {"name":"getStructValue","parameterTypes":[] }, {"name":"hasBoolValue","parameterTypes":[] }, {"name":"hasListValue","parameterTypes":[] }, {"name":"hasNullValue","parameterTypes":[] }, {"name":"hasNumberValue","parameterTypes":[] }, {"name":"hasStringValue","parameterTypes":[] }, {"name":"hasStructValue","parameterTypes":[] }]
+},
+{
+  "name":"com.google.protobuf.Value$Builder",
+  "methods":[{"name":"clearBoolValue","parameterTypes":[] }, {"name":"clearKind","parameterTypes":[] }, {"name":"clearListValue","parameterTypes":[] }, {"name":"clearNullValue","parameterTypes":[] }, {"name":"clearNumberValue","parameterTypes":[] }, {"name":"clearStringValue","parameterTypes":[] }, {"name":"clearStructValue","parameterTypes":[] }, {"name":"getBoolValue","parameterTypes":[] }, {"name":"getKindCase","parameterTypes":[] }, {"name":"getListValue","parameterTypes":[] }, {"name":"getListValueBuilder","parameterTypes":[] }, {"name":"getNullValue","parameterTypes":[] }, {"name":"getNullValueValue","parameterTypes":[] }, {"name":"getNumberValue","parameterTypes":[] }, {"name":"getStringValue","parameterTypes":[] }, {"name":"getStructValue","parameterTypes":[] }, {"name":"getStructValueBuilder","parameterTypes":[] }, {"name":"hasBoolValue","parameterTypes":[] }, {"name":"hasListValue","parameterTypes":[] }, {"name":"hasNullValue","parameterTypes":[] }, {"name":"hasNumberValue","parameterTypes":[] }, {"name":"hasStringValue","parameterTypes":[] }, {"name":"hasStructValue","parameterTypes":[] }, {"name":"setBoolValue","parameterTypes":["boolean"] }, {"name":"setListValue","parameterTypes":["com.google.protobuf.ListValue"] }, {"name":"setNullValue","parameterTypes":["com.google.protobuf.NullValue"] }, {"name":"setNullValueValue","parameterTypes":["int"] }, {"name":"setNumberValue","parameterTypes":["double"] }, {"name":"setStringValue","parameterTypes":["java.lang.String"] }, {"name":"setStringValueBytes","parameterTypes":["com.google.protobuf.ByteString"] }, {"name":"setStructValue","parameterTypes":["com.google.protobuf.Struct"] }]
+},
+{
+  "name":"com.ibm.lang.management.OperatingSystemMXBean"
+},
+{
+  "name":"com.sun.management.GarbageCollectionNotificationInfo"
+},
+{
+  "name":"com.sun.management.OperatingSystemMXBean",
+  "methods":[{"name":"getCpuLoad","parameterTypes":[] }, {"name":"getProcessCpuLoad","parameterTypes":[] }]
+},
+{
+  "name":"com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"double",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"io.grpc.census.InternalCensusStatsAccessor"
+},
+{
+  "name":"io.grpc.census.InternalCensusTracingAccessor"
+},
+{
+  "name":"io.grpc.internal.DnsNameResolverProvider"
+},
+{
+  "name":"io.grpc.internal.PickFirstLoadBalancerProvider"
+},
+{
+  "name":"io.grpc.internal.SerializingExecutor",
+  "fields":[{"name":"runState"}]
+},
+{
+  "name":"io.grpc.override.ContextStorageOverride"
+},
+{
+  "name":"io.grpc.util.SecretRoundRobinLoadBalancerProvider$Provider"
+},
+{
+  "name":"io.micrometer.core.instrument.distribution.TimeWindowMax",
+  "fields":[{"name":"rotating"}]
+},
+{
+  "name":"io.micrometer.core.instrument.distribution.TimeWindowSum",
+  "fields":[{"name":"rotating"}]
+},
+{
+  "name":"io.netty.bootstrap.ServerBootstrap$1"
+},
+{
+  "name":"io.netty.bootstrap.ServerBootstrap$ServerBootstrapAcceptor",
+  "methods":[{"name":"channelRead","parameterTypes":["io.netty.channel.ChannelHandlerContext","java.lang.Object"] }, {"name":"exceptionCaught","parameterTypes":["io.netty.channel.ChannelHandlerContext","java.lang.Throwable"] }]
+},
+{
+  "name":"io.netty.buffer.AbstractByteBufAllocator",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"io.netty.buffer.AbstractReferenceCountedByteBuf",
+  "fields":[{"name":"refCnt"}]
+},
+{
+  "name":"io.netty.channel.AbstractChannelHandlerContext",
+  "fields":[{"name":"handlerState"}]
+},
+{
+  "name":"io.netty.channel.ChannelDuplexHandler",
+  "methods":[{"name":"bind","parameterTypes":["io.netty.channel.ChannelHandlerContext","java.net.SocketAddress","io.netty.channel.ChannelPromise"] }, {"name":"close","parameterTypes":["io.netty.channel.ChannelHandlerContext","io.netty.channel.ChannelPromise"] }, {"name":"connect","parameterTypes":["io.netty.channel.ChannelHandlerContext","java.net.SocketAddress","java.net.SocketAddress","io.netty.channel.ChannelPromise"] }, {"name":"deregister","parameterTypes":["io.netty.channel.ChannelHandlerContext","io.netty.channel.ChannelPromise"] }, {"name":"disconnect","parameterTypes":["io.netty.channel.ChannelHandlerContext","io.netty.channel.ChannelPromise"] }, {"name":"flush","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }, {"name":"read","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }, {"name":"write","parameterTypes":["io.netty.channel.ChannelHandlerContext","java.lang.Object","io.netty.channel.ChannelPromise"] }]
+},
+{
+  "name":"io.netty.channel.ChannelHandlerAdapter",
+  "methods":[{"name":"exceptionCaught","parameterTypes":["io.netty.channel.ChannelHandlerContext","java.lang.Throwable"] }]
+},
+{
+  "name":"io.netty.channel.ChannelInboundHandlerAdapter",
+  "methods":[{"name":"channelActive","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }, {"name":"channelInactive","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }, {"name":"channelRead","parameterTypes":["io.netty.channel.ChannelHandlerContext","java.lang.Object"] }, {"name":"channelReadComplete","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }, {"name":"channelRegistered","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }, {"name":"channelUnregistered","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }, {"name":"channelWritabilityChanged","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }, {"name":"exceptionCaught","parameterTypes":["io.netty.channel.ChannelHandlerContext","java.lang.Throwable"] }, {"name":"userEventTriggered","parameterTypes":["io.netty.channel.ChannelHandlerContext","java.lang.Object"] }]
+},
+{
+  "name":"io.netty.channel.ChannelInitializer",
+  "methods":[{"name":"channelRegistered","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }, {"name":"exceptionCaught","parameterTypes":["io.netty.channel.ChannelHandlerContext","java.lang.Throwable"] }]
+},
+{
+  "name":"io.netty.channel.ChannelOutboundBuffer",
+  "fields":[{"name":"totalPendingSize"}, {"name":"unwritable"}]
+},
+{
+  "name":"io.netty.channel.ChannelOutboundHandlerAdapter",
+  "methods":[{"name":"bind","parameterTypes":["io.netty.channel.ChannelHandlerContext","java.net.SocketAddress","io.netty.channel.ChannelPromise"] }, {"name":"close","parameterTypes":["io.netty.channel.ChannelHandlerContext","io.netty.channel.ChannelPromise"] }, {"name":"connect","parameterTypes":["io.netty.channel.ChannelHandlerContext","java.net.SocketAddress","java.net.SocketAddress","io.netty.channel.ChannelPromise"] }, {"name":"deregister","parameterTypes":["io.netty.channel.ChannelHandlerContext","io.netty.channel.ChannelPromise"] }, {"name":"disconnect","parameterTypes":["io.netty.channel.ChannelHandlerContext","io.netty.channel.ChannelPromise"] }, {"name":"flush","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }, {"name":"read","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }]
+},
+{
+  "name":"io.netty.channel.DefaultChannelConfig",
+  "fields":[{"name":"autoRead"}, {"name":"writeBufferWaterMark"}]
+},
+{
+  "name":"io.netty.channel.DefaultChannelPipeline",
+  "fields":[{"name":"estimatorHandle"}]
+},
+{
+  "name":"io.netty.channel.DefaultChannelPipeline$HeadContext",
+  "methods":[{"name":"bind","parameterTypes":["io.netty.channel.ChannelHandlerContext","java.net.SocketAddress","io.netty.channel.ChannelPromise"] }, {"name":"channelActive","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }, {"name":"channelInactive","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }, {"name":"channelRead","parameterTypes":["io.netty.channel.ChannelHandlerContext","java.lang.Object"] }, {"name":"channelReadComplete","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }, {"name":"channelRegistered","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }, {"name":"channelUnregistered","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }, {"name":"channelWritabilityChanged","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }, {"name":"close","parameterTypes":["io.netty.channel.ChannelHandlerContext","io.netty.channel.ChannelPromise"] }, {"name":"connect","parameterTypes":["io.netty.channel.ChannelHandlerContext","java.net.SocketAddress","java.net.SocketAddress","io.netty.channel.ChannelPromise"] }, {"name":"deregister","parameterTypes":["io.netty.channel.ChannelHandlerContext","io.netty.channel.ChannelPromise"] }, {"name":"disconnect","parameterTypes":["io.netty.channel.ChannelHandlerContext","io.netty.channel.ChannelPromise"] }, {"name":"exceptionCaught","parameterTypes":["io.netty.channel.ChannelHandlerContext","java.lang.Throwable"] }, {"name":"flush","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }, {"name":"read","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }, {"name":"userEventTriggered","parameterTypes":["io.netty.channel.ChannelHandlerContext","java.lang.Object"] }, {"name":"write","parameterTypes":["io.netty.channel.ChannelHandlerContext","java.lang.Object","io.netty.channel.ChannelPromise"] }]
+},
+{
+  "name":"io.netty.channel.DefaultChannelPipeline$TailContext",
+  "methods":[{"name":"channelActive","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }, {"name":"channelInactive","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }, {"name":"channelRead","parameterTypes":["io.netty.channel.ChannelHandlerContext","java.lang.Object"] }, {"name":"channelReadComplete","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }, {"name":"channelRegistered","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }, {"name":"channelUnregistered","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }, {"name":"channelWritabilityChanged","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }, {"name":"exceptionCaught","parameterTypes":["io.netty.channel.ChannelHandlerContext","java.lang.Throwable"] }, {"name":"userEventTriggered","parameterTypes":["io.netty.channel.ChannelHandlerContext","java.lang.Object"] }]
+},
+{
+  "name":"io.netty.channel.DefaultFileRegion"
+},
+{
+  "name":"io.netty.channel.SimpleChannelInboundHandler",
+  "methods":[{"name":"channelRead","parameterTypes":["io.netty.channel.ChannelHandlerContext","java.lang.Object"] }]
+},
+{
+  "name":"io.netty.channel.epoll.Epoll",
+  "methods":[{"name":"isAvailable","parameterTypes":[] }, {"name":"unavailabilityCause","parameterTypes":[] }]
+},
+{
+  "name":"io.netty.channel.epoll.NativeDatagramPacketArray$NativeDatagramPacket"
+},
+{
+  "name":"io.netty.channel.kqueue.KQueueDatagramChannel",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.netty.channel.kqueue.KQueueEventLoop",
+  "fields":[{"name":"wakenUp"}]
+},
+{
+  "name":"io.netty.channel.kqueue.KQueueServerSocketChannel",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.netty.channel.kqueue.KQueueSocketChannel",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.netty.channel.socket.nio.NioSocketChannel",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.netty.channel.unix.DatagramSocketAddress"
+},
+{
+  "name":"io.netty.channel.unix.DomainDatagramSocketAddress"
+},
+{
+  "name":"io.netty.channel.unix.FileDescriptor",
+  "fields":[{"name":"state"}]
+},
+{
+  "name":"io.netty.channel.unix.PeerCredentials"
+},
+{
+  "name":"io.netty.handler.codec.ByteToMessageDecoder",
+  "methods":[{"name":"channelInactive","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }, {"name":"channelRead","parameterTypes":["io.netty.channel.ChannelHandlerContext","java.lang.Object"] }, {"name":"channelReadComplete","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }, {"name":"userEventTriggered","parameterTypes":["io.netty.channel.ChannelHandlerContext","java.lang.Object"] }]
+},
+{
+  "name":"io.netty.handler.codec.DatagramPacketEncoder",
+  "methods":[{"name":"bind","parameterTypes":["io.netty.channel.ChannelHandlerContext","java.net.SocketAddress","io.netty.channel.ChannelPromise"] }, {"name":"close","parameterTypes":["io.netty.channel.ChannelHandlerContext","io.netty.channel.ChannelPromise"] }, {"name":"connect","parameterTypes":["io.netty.channel.ChannelHandlerContext","java.net.SocketAddress","java.net.SocketAddress","io.netty.channel.ChannelPromise"] }, {"name":"deregister","parameterTypes":["io.netty.channel.ChannelHandlerContext","io.netty.channel.ChannelPromise"] }, {"name":"disconnect","parameterTypes":["io.netty.channel.ChannelHandlerContext","io.netty.channel.ChannelPromise"] }, {"name":"exceptionCaught","parameterTypes":["io.netty.channel.ChannelHandlerContext","java.lang.Throwable"] }, {"name":"flush","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }, {"name":"read","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }]
+},
+{
+  "name":"io.netty.handler.codec.MessageToByteEncoder",
+  "methods":[{"name":"write","parameterTypes":["io.netty.channel.ChannelHandlerContext","java.lang.Object","io.netty.channel.ChannelPromise"] }]
+},
+{
+  "name":"io.netty.handler.codec.MessageToMessageEncoder",
+  "methods":[{"name":"write","parameterTypes":["io.netty.channel.ChannelHandlerContext","java.lang.Object","io.netty.channel.ChannelPromise"] }]
+},
+{
+  "name":"io.netty.handler.codec.compression.FastLzFrameDecoder"
+},
+{
+  "name":"io.netty.handler.codec.compression.FastLzFrameEncoder"
+},
+{
+  "name":"io.netty.handler.codec.haproxy.HAProxyMessageDecoder",
+  "methods":[{"name":"channelRead","parameterTypes":["io.netty.channel.ChannelHandlerContext","java.lang.Object"] }]
+},
+{
+  "name":"io.netty.handler.codec.mqtt.MqttDecoder"
+},
+{
+  "name":"io.netty.handler.codec.mqtt.MqttEncoder"
+},
+{
+  "name":"io.netty.handler.ssl.ClientAuth",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"io.netty.handler.traffic.AbstractTrafficShapingHandler",
+  "methods":[{"name":"channelRead","parameterTypes":["io.netty.channel.ChannelHandlerContext","java.lang.Object"] }, {"name":"channelRegistered","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }, {"name":"read","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }, {"name":"write","parameterTypes":["io.netty.channel.ChannelHandlerContext","java.lang.Object","io.netty.channel.ChannelPromise"] }]
+},
+{
+  "name":"io.netty.handler.traffic.ChannelTrafficShapingHandler"
+},
+{
+  "name":"io.netty.util.AbstractReferenceCounted",
+  "fields":[{"name":"refCnt"}]
+},
+{
+  "name":"io.netty.util.DefaultAttributeMap",
+  "fields":[{"name":"attributes"}]
+},
+{
+  "name":"io.netty.util.DefaultAttributeMap$DefaultAttribute",
+  "fields":[{"name":"attributeMap"}]
+},
+{
+  "name":"io.netty.util.Recycler$DefaultHandle",
+  "fields":[{"name":"state"}]
+},
+{
+  "name":"io.netty.util.ReferenceCountUtil",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"io.netty.util.concurrent.DefaultPromise",
+  "fields":[{"name":"result"}]
+},
+{
+  "name":"io.netty.util.concurrent.SingleThreadEventExecutor",
+  "fields":[{"name":"state"}, {"name":"threadProperties"}]
+},
+{
+  "name":"io.netty.util.internal.NativeLibraryUtil",
+  "methods":[{"name":"loadLibrary","parameterTypes":["java.lang.String","boolean"] }]
+},
+{
+  "name":"io.netty.util.internal.shaded.org.jctools.queues.BaseMpscLinkedArrayQueueColdProducerFields",
+  "fields":[{"name":"producerLimit"}]
+},
+{
+  "name":"io.netty.util.internal.shaded.org.jctools.queues.BaseMpscLinkedArrayQueueConsumerFields",
+  "fields":[{"name":"consumerIndex"}]
+},
+{
+  "name":"io.netty.util.internal.shaded.org.jctools.queues.BaseMpscLinkedArrayQueueProducerFields",
+  "fields":[{"name":"producerIndex"}]
+},
+{
+  "name":"io.netty.util.internal.shaded.org.jctools.queues.unpadded.MpscUnpaddedArrayQueueConsumerIndexField",
+  "fields":[{"name":"consumerIndex"}]
+},
+{
+  "name":"io.netty.util.internal.shaded.org.jctools.queues.unpadded.MpscUnpaddedArrayQueueProducerIndexField",
+  "fields":[{"name":"producerIndex"}]
+},
+{
+  "name":"io.netty.util.internal.shaded.org.jctools.queues.unpadded.MpscUnpaddedArrayQueueProducerLimitField",
+  "fields":[{"name":"producerLimit"}]
+},
+{
+  "name":"io.perfmark.impl.SecretPerfMarkImpl$PerfMarkImpl"
+},
+{
+  "name":"jakarta.inject.Named",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"jakarta.servlet.Servlet"
+},
+{
+  "name":"java.io.FileDescriptor"
+},
+{
+  "name":"java.io.IOException"
+},
+{
+  "name":"java.lang.AutoCloseable"
+},
+{
+  "name":"java.lang.BaseVirtualThread"
+},
+{
+  "name":"java.lang.Boolean",
+  "methods":[{"name":"parseBoolean","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"java.lang.Byte",
+  "methods":[{"name":"parseByte","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"java.lang.ClassLoader$$DefineAccessByGuice$$/0x00000008005bc000",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"java.lang.Cloneable"
+},
+{
+  "name":"java.lang.Double",
+  "methods":[{"name":"parseDouble","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"java.lang.Enum"
+},
+{
+  "name":"java.lang.Float",
+  "methods":[{"name":"parseFloat","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"java.lang.Integer",
+  "methods":[{"name":"parseInt","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"java.lang.Long",
+  "methods":[{"name":"parseLong","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"java.lang.Module"
+},
+{
+  "name":"java.lang.Object",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"java.lang.OutOfMemoryError"
+},
+{
+  "name":"java.lang.ProcessHandle",
+  "methods":[{"name":"current","parameterTypes":[] }, {"name":"pid","parameterTypes":[] }]
+},
+{
+  "name":"java.lang.RuntimeException"
+},
+{
+  "name":"java.lang.Short",
+  "methods":[{"name":"parseShort","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"java.lang.StringBuilder"
+},
+{
+  "name":"java.lang.Thread",
+  "fields":[{"name":"threadLocalRandomProbe"}],
+  "methods":[{"name":"isVirtual","parameterTypes":[] }]
+},
+{
+  "name":"java.lang.invoke.CallSite"
+},
+{
+  "name":"java.lang.invoke.MethodHandles$Lookup",
+  "fields":[{"name":"IMPL_LOOKUP"}],
+  "methods":[{"name":"defineHiddenClass","parameterTypes":["byte[]","boolean","java.lang.invoke.MethodHandles$Lookup$ClassOption[]"] }]
+},
+{
+  "name":"java.lang.invoke.MethodHandles$Lookup$ClassOption"
+},
+{
+  "name":"java.lang.reflect.AccessibleObject",
+  "fields":[{"name":"override"}]
+},
+{
+  "name":"java.net.InetSocketAddress"
+},
+{
+  "name":"java.net.PortUnreachableException"
+},
+{
+  "name":"java.nio.Bits",
+  "fields":[{"name":"MAX_MEMORY"}, {"name":"UNALIGNED"}]
+},
+{
+  "name":"java.nio.Buffer",
+  "fields":[{"name":"address"}]
+},
+{
+  "name":"java.nio.ByteBuffer",
+  "methods":[{"name":"alignedSlice","parameterTypes":["int"] }]
+},
+{
+  "name":"java.nio.DirectByteBuffer",
+  "methods":[{"name":"<init>","parameterTypes":["long","int"] }]
+},
+{
+  "name":"java.nio.channels.ClosedChannelException"
+},
+{
+  "name":"java.nio.channels.FileChannel"
+},
+{
+  "name":"java.security.SecureRandomParameters"
+},
+{
+  "name":"java.sql.Date"
+},
+{
+  "name":"java.sql.Time"
+},
+{
+  "name":"java.sql.Timestamp"
+},
+{
+  "name":"java.time.Instant"
+},
+{
+  "name":"java.util.List",
+  "methods":[{"name":"copyOf","parameterTypes":["java.util.Collection"] }]
+},
+{
+  "name":"java.util.Optional",
+  "methods":[{"name":"isEmpty","parameterTypes":[] }]
+},
+{
+  "name":"java.util.concurrent.ForkJoinTask",
+  "fields":[{"name":"aux"}, {"name":"status"}]
+},
+{
+  "name":"java.util.concurrent.ScheduledThreadPoolExecutor",
+  "methods":[{"name":"setRemoveOnCancelPolicy","parameterTypes":["boolean"] }]
+},
+{
+  "name":"java.util.concurrent.atomic.AtomicBoolean",
+  "fields":[{"name":"value"}]
+},
+{
+  "name":"java.util.concurrent.atomic.AtomicReference",
+  "fields":[{"name":"value"}]
+},
+{
+  "name":"java.util.concurrent.atomic.LongAdder",
+  "queryAllPublicConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"add","parameterTypes":["long"] }, {"name":"sum","parameterTypes":[] }]
+},
+{
+  "name":"java.util.concurrent.atomic.Striped64",
+  "fields":[{"name":"base"}, {"name":"cellsBusy"}]
+},
+{
+  "name":"java.util.concurrent.atomic.Striped64$Cell",
+  "fields":[{"name":"value"}]
+},
+{
+  "name":"java.util.function.Function"
+},
+{
+  "name":"java.util.zip.DeflaterInputStream"
+},
+{
+  "name":"javax.net.ssl.X509ExtendedTrustManager"
+},
+{
+  "name":"javax.servlet.Servlet"
+},
+{
+  "name":"jdk.internal.misc.Unsafe",
+  "methods":[{"name":"getUnsafe","parameterTypes":[] }]
+},
+{
+  "name":"libcore.io.Memory"
+},
+{
+  "name":"org.apache.bifromq.apiserver.http.handler.DisableBalancerHandler",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.apache.bifromq.apiserver.http.handler.EnableBalancerHandler",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.apache.bifromq.apiserver.http.handler.ExpireRetainHandler",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.apache.bifromq.apiserver.http.handler.ExpireSessionHandler",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.apache.bifromq.apiserver.http.handler.GetBalancerStateHandler",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.apache.bifromq.apiserver.http.handler.GetClusterHandler",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.apache.bifromq.apiserver.http.handler.GetLoadRulesHandler",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.apache.bifromq.apiserver.http.handler.GetServiceLandscapeHandler",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.apache.bifromq.apiserver.http.handler.GetSessionInfoHandler",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.apache.bifromq.apiserver.http.handler.GetStoreLandscapeHandler",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.apache.bifromq.apiserver.http.handler.GetStoreRangesHandler",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.apache.bifromq.apiserver.http.handler.GetTrafficRulesHandler",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.apache.bifromq.apiserver.http.handler.KillHandler",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.apache.bifromq.apiserver.http.handler.ListAllServicesHandler",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.apache.bifromq.apiserver.http.handler.ListAllStoreHandler",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.apache.bifromq.apiserver.http.handler.PubHandler",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.apache.bifromq.apiserver.http.handler.RetainHandler",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.apache.bifromq.apiserver.http.handler.SetLoadRulesHandler",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.apache.bifromq.apiserver.http.handler.SetServerGroupTagsHandler",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.apache.bifromq.apiserver.http.handler.SetTrafficRulesHandler",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.apache.bifromq.apiserver.http.handler.SubHandler",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.apache.bifromq.apiserver.http.handler.UnsetTrafficRulesHandler",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.apache.bifromq.apiserver.http.handler.UnsubHandler",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"org.apache.bifromq.basecluster.transport.UDPTransport$1"
+},
+{
+  "name":"org.apache.bifromq.basecluster.transport.UDPTransport$Bridger"
+},
+{
+  "name":"org.apache.bifromq.basecrdt.core.internal.DotMap",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.bifromq.basehlc.HLC",
+  "fields":[{"name":"hlc"}]
+},
+{
+  "name":"org.apache.bifromq.basekv.proto.State",
+  "methods":[{"name":"getDefaultInstance","parameterTypes":[] }, {"name":"getTaskId","parameterTypes":[] }, {"name":"getTaskIdBytes","parameterTypes":[] }, {"name":"getType","parameterTypes":[] }, {"name":"getTypeValue","parameterTypes":[] }, {"name":"hasTaskId","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.bifromq.basekv.proto.State$Builder",
+  "methods":[{"name":"clearTaskId","parameterTypes":[] }, {"name":"clearType","parameterTypes":[] }, {"name":"getTaskId","parameterTypes":[] }, {"name":"getType","parameterTypes":[] }, {"name":"getTypeValue","parameterTypes":[] }, {"name":"hasTaskId","parameterTypes":[] }, {"name":"setTaskId","parameterTypes":["java.lang.String"] }, {"name":"setTaskIdBytes","parameterTypes":["com.google.protobuf.ByteString"] }, {"name":"setType","parameterTypes":["org.apache.bifromq.basekv.proto.State$StateType"] }, {"name":"setTypeValue","parameterTypes":["int"] }]
+},
+{
+  "name":"org.apache.bifromq.basekv.proto.State$StateType",
+  "methods":[{"name":"getValueDescriptor","parameterTypes":[] }, {"name":"valueOf","parameterTypes":["com.google.protobuf.Descriptors$EnumValueDescriptor"] }]
+},
+{
+  "name":"org.apache.bifromq.basekv.raft.proto.ClusterConfig",
+  "methods":[{"name":"getCorrelateId","parameterTypes":[] }, {"name":"getCorrelateIdBytes","parameterTypes":[] }, {"name":"getLearners","parameterTypes":["int"] }, {"name":"getLearnersCount","parameterTypes":[] }, {"name":"getLearnersList","parameterTypes":[] }, {"name":"getNextLearners","parameterTypes":["int"] }, {"name":"getNextLearnersCount","parameterTypes":[] }, {"name":"getNextLearnersList","parameterTypes":[] }, {"name":"getNextVoters","parameterTypes":["int"] }, {"name":"getNextVotersCount","parameterTypes":[] }, {"name":"getNextVotersList","parameterTypes":[] }, {"name":"getVoters","parameterTypes":["int"] }, {"name":"getVotersCount","parameterTypes":[] }, {"name":"getVotersList","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.bifromq.basekv.raft.proto.ClusterConfig$Builder",
+  "methods":[{"name":"addLearners","parameterTypes":["java.lang.String"] }, {"name":"addNextLearners","parameterTypes":["java.lang.String"] }, {"name":"addNextVoters","parameterTypes":["java.lang.String"] }, {"name":"addVoters","parameterTypes":["java.lang.String"] }, {"name":"clearCorrelateId","parameterTypes":[] }, {"name":"clearLearners","parameterTypes":[] }, {"name":"clearNextLearners","parameterTypes":[] }, {"name":"clearNextVoters","parameterTypes":[] }, {"name":"clearVoters","parameterTypes":[] }, {"name":"getCorrelateId","parameterTypes":[] }, {"name":"getLearners","parameterTypes":["int"] }, {"name":"getLearnersCount","parameterTypes":[] }, {"name":"getLearnersList","parameterTypes":[] }, {"name":"getNextLearners","parameterTypes":["int"] }, {"name":"getNextLearnersCount","parameterTypes":[] }, {"name":"getNextLearnersList","parameterTypes":[] }, {"name":"getNextVoters","parameterTypes":["int"] }, {"name":"getNextVotersCount","parameterTypes":[] }, {"name":"getNextVotersList","parameterTypes":[] }, {"name":"getVoters","parameterTypes":["int"] }, {"name":"getVotersCount","parameterTypes":[] }, {"name":"getVotersList","parameterTypes":[] }, {"name":"setCorrelateId","parameterTypes":["java.lang.String"] }, {"name":"setCorrelateIdBytes","parameterTypes":["com.google.protobuf.ByteString"] }, {"name":"setLearners","parameterTypes":["int","java.lang.String"] }, {"name":"setNextLearners","parameterTypes":["int","java.lang.String"] }, {"name":"setNextVoters","parameterTypes":["int","java.lang.String"] }, {"name":"setVoters","parameterTypes":["int","java.lang.String"] }]
+},
+{
+  "name":"org.apache.bifromq.demo.plugin.DemoAuthProvider",
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"<init>","parameterTypes":["org.apache.bifromq.demo.plugin.DemoPluginContext"] }]
+},
+{
+  "name":"org.apache.bifromq.demo.plugin.DemoPlugin",
+  "methods":[{"name":"<init>","parameterTypes":["org.apache.bifromq.plugin.BifroMQPluginDescriptor"] }]
+},
+{
+  "name":"org.apache.bifromq.demo.plugin.DemoPluginContext",
+  "methods":[{"name":"<init>","parameterTypes":["org.apache.bifromq.plugin.BifroMQPluginDescriptor"] }]
+},
+{
+  "name":"org.apache.bifromq.demo.plugin.DemoResourceThrottler",
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"<init>","parameterTypes":["org.apache.bifromq.demo.plugin.DemoPluginContext"] }]
+},
+{
+  "name":"org.apache.bifromq.demo.plugin.DemoSettingProvider",
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"<init>","parameterTypes":["org.apache.bifromq.demo.plugin.DemoPluginContext"] }]
+},
+{
+  "name":"org.apache.bifromq.demo.plugin.EventLogger",
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"<init>","parameterTypes":["org.apache.bifromq.demo.plugin.DemoPluginContext"] }]
+},
+{
+  "name":"org.apache.bifromq.dist.rpc.proto.Fact",
+  "methods":[{"name":"getFirstGlobalFilterLevels","parameterTypes":[] }, {"name":"getLastGlobalFilterLevels","parameterTypes":[] }, {"name":"hasFirstGlobalFilterLevels","parameterTypes":[] }, {"name":"hasLastGlobalFilterLevels","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.bifromq.dist.rpc.proto.Fact$Builder",
+  "methods":[{"name":"clearFirstGlobalFilterLevels","parameterTypes":[] }, {"name":"clearLastGlobalFilterLevels","parameterTypes":[] }, {"name":"getFirstGlobalFilterLevels","parameterTypes":[] }, {"name":"getFirstGlobalFilterLevelsBuilder","parameterTypes":[] }, {"name":"getLastGlobalFilterLevels","parameterTypes":[] }, {"name":"getLastGlobalFilterLevelsBuilder","parameterTypes":[] }, {"name":"hasFirstGlobalFilterLevels","parameterTypes":[] }, {"name":"hasLastGlobalFilterLevels","parameterTypes":[] }, {"name":"setFirstGlobalFilterLevels","parameterTypes":["org.apache.bifromq.dist.rpc.proto.GlobalFilterLevels"] }, {"name":"setLastGlobalFilterLevels","parameterTypes":["org.apache.bifromq.dist.rpc.proto.GlobalFilterLevels"] }]
+},
+{
+  "name":"org.apache.bifromq.dist.rpc.proto.GlobalFilterLevels",
+  "methods":[{"name":"newBuilder","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.bifromq.dist.worker.cache.TenantRouteCache$2"
+},
+{
+  "name":"org.apache.bifromq.mqtt.MQTTBroker$1"
+},
+{
+  "name":"org.apache.bifromq.mqtt.handler.ConditionalRejectHandler",
+  "methods":[{"name":"channelActive","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }]
+},
+{
+  "name":"org.apache.bifromq.mqtt.handler.ConditionalSlowDownHandler",
+  "methods":[{"name":"channelInactive","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }, {"name":"channelRead","parameterTypes":["io.netty.channel.ChannelHandlerContext","java.lang.Object"] }, {"name":"channelReadComplete","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }]
+},
+{
+  "name":"org.apache.bifromq.mqtt.handler.ConnectionRateLimitHandler",
+  "methods":[{"name":"channelActive","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }, {"name":"channelRead","parameterTypes":["io.netty.channel.ChannelHandlerContext","java.lang.Object"] }]
+},
+{
+  "name":"org.apache.bifromq.mqtt.handler.MQTTConnectHandler",
+  "methods":[{"name":"channelInactive","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }, {"name":"channelRead","parameterTypes":["io.netty.channel.ChannelHandlerContext","java.lang.Object"] }]
+},
+{
+  "name":"org.apache.bifromq.mqtt.handler.MQTTMessageDebounceHandler",
+  "methods":[{"name":"channelInactive","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }, {"name":"channelRead","parameterTypes":["io.netty.channel.ChannelHandlerContext","java.lang.Object"] }, {"name":"read","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }]
+},
+{
+  "name":"org.apache.bifromq.mqtt.handler.MQTTMessageHandler",
+  "methods":[{"name":"channelWritabilityChanged","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }, {"name":"close","parameterTypes":["io.netty.channel.ChannelHandlerContext","io.netty.channel.ChannelPromise"] }, {"name":"disconnect","parameterTypes":["io.netty.channel.ChannelHandlerContext","io.netty.channel.ChannelPromise"] }]
+},
+{
+  "name":"org.apache.bifromq.mqtt.handler.MQTTPacketFilter",
+  "methods":[{"name":"write","parameterTypes":["io.netty.channel.ChannelHandlerContext","java.lang.Object","io.netty.channel.ChannelPromise"] }]
+},
+{
+  "name":"org.apache.bifromq.mqtt.handler.MQTTPreludeHandler",
+  "methods":[{"name":"channelInactive","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }, {"name":"channelRead","parameterTypes":["io.netty.channel.ChannelHandlerContext","java.lang.Object"] }, {"name":"exceptionCaught","parameterTypes":["io.netty.channel.ChannelHandlerContext","java.lang.Throwable"] }]
+},
+{
+  "name":"org.apache.bifromq.mqtt.handler.MQTTSessionHandler",
+  "methods":[{"name":"channelRead","parameterTypes":["io.netty.channel.ChannelHandlerContext","java.lang.Object"] }, {"name":"exceptionCaught","parameterTypes":["io.netty.channel.ChannelHandlerContext","java.lang.Throwable"] }]
+},
+{
+  "name":"org.apache.bifromq.mqtt.handler.ProxyProtocolDetector",
+  "methods":[{"name":"channelRead","parameterTypes":["io.netty.channel.ChannelHandlerContext","java.lang.Object"] }]
+},
+{
+  "name":"org.apache.bifromq.mqtt.handler.ProxyProtocolHandler",
+  "methods":[{"name":"channelRead","parameterTypes":["io.netty.channel.ChannelHandlerContext","java.lang.Object"] }, {"name":"exceptionCaught","parameterTypes":["io.netty.channel.ChannelHandlerContext","java.lang.Throwable"] }]
+},
+{
+  "name":"org.apache.bifromq.mqtt.handler.v5.MQTT5ConnectHandler"
+},
+{
+  "name":"org.apache.bifromq.mqtt.handler.v5.MQTT5TransientSessionHandler",
+  "methods":[{"name":"channelInactive","parameterTypes":["io.netty.channel.ChannelHandlerContext"] }]
+},
+{
+  "name":"org.apache.bifromq.plugin.eventcollector.ClientEvent"
+},
+{
+  "name":"org.apache.bifromq.plugin.eventcollector.OutOfTenantResource",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.bifromq.plugin.eventcollector.distservice.DeliverError",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.bifromq.plugin.eventcollector.distservice.Delivered",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.bifromq.plugin.eventcollector.distservice.DistError",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.bifromq.plugin.eventcollector.distservice.Disted",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.bifromq.plugin.eventcollector.distservice.GroupFanoutThrottled",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.bifromq.plugin.eventcollector.distservice.MatchError",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.bifromq.plugin.eventcollector.distservice.Matched",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.bifromq.plugin.eventcollector.distservice.PersistentFanoutBytesThrottled",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.bifromq.plugin.eventcollector.distservice.PersistentFanoutThrottled",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.bifromq.plugin.eventcollector.distservice.UnmatchError",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.bifromq.plugin.eventcollector.distservice.Unmatched",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.bifromq.plugin.eventcollector.inboxservice.Overflowed",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.bifromq.plugin.eventcollector.mqttbroker.OversizePacketDropped",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.bifromq.plugin.eventcollector.mqttbroker.PingReq",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.bifromq.plugin.eventcollector.mqttbroker.accessctrl.AccessControlError",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.bifromq.plugin.eventcollector.mqttbroker.accessctrl.PubActionDisallow",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.bifromq.plugin.eventcollector.mqttbroker.accessctrl.SubActionDisallow",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.bifromq.plugin.eventcollector.mqttbroker.accessctrl.UnsubActionDisallow",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.bifromq.plugin.eventcollector.mqttbroker.channelclosed.AuthError",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.bifromq.plugin.eventcollector.mqttbroker.channelclosed.ChannelClosedEvent"
+},
+{
+  "name":"org.apache.bifromq.plugin.eventcollector.mqttbroker.channelclosed.ChannelError",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.bifromq.plugin.eventcollector.mqttbroker.channelclosed.ConnectTimeout",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.bifromq.plugin.eventcollector.mqttbroker.channelclosed.EnhancedAuthAbortByClient",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.bifromq.plugin.eventcollector.mqttbroker.channelclosed.IdentifierRejected",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.bifromq.plugin.eventcollector.mqttbroker.channelclosed.MalformedClientIdentifier",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.bifromq.plugin.eventcollector.mqttbroker.channelclosed.MalformedUserName",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.bifromq.plugin.eventcollector.mqttbroker.channelclosed.MalformedWillTopic",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.bifromq.plugin.eventcollector.mqttbroker.channelclosed.NotAuthorizedClient",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.bifromq.plugin.eventcollector.mqttbroker.channelclosed.ProtocolError",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.bifromq.plugin.eventcollector.mqttbroker.channelclosed.UnacceptedProtocolVer",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.bifromq.plugin.eventcollector.mqttbroker.channelclosed.UnauthenticatedClient",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.bifromq.plugin.eventcollector.mqttbroker.clientconnected.ClientConnected",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.bifromq.plugin.eventcollector.mqttbroker.clientdisconnect.BadPacket",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.bifromq.plugin.eventcollector.mqttbroker.clientdisconnect.ByClient",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.bifromq.plugin.eventcollector.mqttbroker.clientdisconnect.ByServer",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.bifromq.plugin.eventcollector.mqttbroker.clientdisconnect.ClientChannelError",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.bifromq.plugin.eventcollector.mqttbroker.clientdisconnect.ClientDisconnectEvent"
+},
+{
+  "name":"org.apache.bifromq.plugin.eventcollector.mqttbroker.clientdisconnect.ExceedPubRate",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.bifromq.plugin.eventcollector.mqttbroker.clientdisconnect.ExceedReceivingLimit",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.bifromq.plugin.eventcollector.mqttbroker.clientdisconnect.Idle",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.bifromq.plugin.eventcollector.mqttbroker.clientdisconnect.InboxTransientError",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.bifromq.plugin.eventcollector.mqttbroker.clientdisconnect.InvalidTopic",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.bifromq.plugin.eventcollector.mqttbroker.clientdisconnect.InvalidTopicFilter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.bifromq.plugin.eventcollector.mqttbroker.clientdisconnect.Kicked",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.bifromq.plugin.eventcollector.mqttbroker.clientdisconnect.MalformedTopic",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.bifromq.plugin.eventcollector.mqttbroker.clientdisconnect.MalformedTopicFilter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.bifromq.plugin.eventcollector.mqttbroker.clientdisconnect.NoPubPermission",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.bifromq.plugin.eventcollector.mqttbroker.clientdisconnect.ProtocolViolation",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.bifromq.plugin.eventcollector.mqttbroker.clientdisconnect.ReAuthFailed",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.bifromq.plugin.eventcollector.mqttbroker.clientdisconnect.Redirect",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.bifromq.plugin.eventcollector.mqttbroker.clientdisconnect.ResourceThrottled",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.bifromq.plugin.eventcollector.mqttbroker.clientdisconnect.ServerBusy",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.bifromq.plugin.eventcollector.mqttbroker.clientdisconnect.TooLargeSubscription",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.bifromq.plugin.eventcollector.mqttbroker.clientdisconnect.TooLargeUnsubscription",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.bifromq.plugin.eventcollector.mqttbroker.disthandling.Discard",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.bifromq.plugin.eventcollector.mqttbroker.disthandling.DistEvent"
+},
+{
+  "name":"org.apache.bifromq.plugin.eventcollector.mqttbroker.disthandling.QoS0DistError",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.bifromq.plugin.eventcollector.mqttbroker.disthandling.QoS1DistError",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.bifromq.plugin.eventcollector.mqttbroker.disthandling.QoS1PubAckDropped",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.bifromq.plugin.eventcollector.mqttbroker.disthandling.QoS1PubAcked",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.bifromq.plugin.eventcollector.mqttbroker.disthandling.QoS2DistError",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.bifromq.plugin.eventcollector.mqttbroker.disthandling.QoS2PubRecDropped",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.bifromq.plugin.eventcollector.mqttbroker.disthandling.QoS2PubReced",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.bifromq.plugin.eventcollector.mqttbroker.disthandling.WillDistError",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.bifromq.plugin.eventcollector.mqttbroker.disthandling.WillDisted",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.bifromq.plugin.eventcollector.mqttbroker.pushhandling.PushEvent"
+},
+{
+  "name":"org.apache.bifromq.plugin.eventcollector.mqttbroker.pushhandling.QoS0Dropped",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.bifromq.plugin.eventcollector.mqttbroker.pushhandling.QoS0Pushed",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.bifromq.plugin.eventcollector.mqttbroker.pushhandling.QoS1Confirmed",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.bifromq.plugin.eventcollector.mqttbroker.pushhandling.QoS1Dropped",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.bifromq.plugin.eventcollector.mqttbroker.pushhandling.QoS1Pushed",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.bifromq.plugin.eventcollector.mqttbroker.pushhandling.QoS2Confirmed",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.bifromq.plugin.eventcollector.mqttbroker.pushhandling.QoS2Dropped",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.bifromq.plugin.eventcollector.mqttbroker.pushhandling.QoS2Pushed",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.bifromq.plugin.eventcollector.mqttbroker.pushhandling.QoS2Received",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.bifromq.plugin.eventcollector.mqttbroker.retainhandling.MatchRetainError",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.bifromq.plugin.eventcollector.mqttbroker.retainhandling.MsgRetained",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.bifromq.plugin.eventcollector.mqttbroker.retainhandling.MsgRetainedError",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.bifromq.plugin.eventcollector.mqttbroker.retainhandling.RetainEvent"
+},
+{
+  "name":"org.apache.bifromq.plugin.eventcollector.mqttbroker.retainhandling.RetainMsgCleared",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.bifromq.plugin.eventcollector.mqttbroker.subhandling.SubAcked",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.bifromq.plugin.eventcollector.mqttbroker.subhandling.UnsubAcked",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.bifromq.plugin.eventcollector.session.MQTTSessionStart",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.bifromq.plugin.eventcollector.session.MQTTSessionStop",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.bifromq.starter.ServiceBootstrapper",
+  "allDeclaredConstructors": true,
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.apache.bifromq.starter.ServiceBootstrapper$$FastClassByGuice$$4beb8",
+  "fields":[{"name":"GUICE$INVOKERS"}]
+},
+{
+  "name":"org.apache.bifromq.starter.config.StandaloneConfig",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getApiServerConfig","parameterTypes":[] }, {"name":"getAuthProviderFQN","parameterTypes":[] }, {"name":"getBgTaskThreads","parameterTypes":[] }, {"name":"getClusterConfig","parameterTypes":[] }, {"name":"getDistServiceConfig","parameterTypes":[] }, {"name":"getInboxServiceConfig","parameterTypes":[] }, {"name":"getMqttServiceConfig","parameterTypes":[] }, {"name":"getResourceThrottlerFQN","parameterTypes":[] }, {"name":"getRetainServiceConfig","parameterTypes":[] }, {"name":"getRpcConfig","parameterTypes":[] }, {"name":"getSessionDictServiceConfig","parameterTypes":[] }, {"name":"getSettingProviderFQN","parameterTypes":[] }, {"name":"setClusterConfig","parameterTypes":["org.apache.bifromq.starter.config.model.ClusterConfig"] }, {"name":"setMqttServiceConfig","parameterTypes":["org.apache.bifromq.starter.config.model.mqtt.MQTTServiceConfig"] }]
+},
+{
+  "name":"org.apache.bifromq.starter.config.model.BalancerOptions",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"getBalancers","parameterTypes":[] }, {"name":"getBootstrapDelayInMS","parameterTypes":[] }, {"name":"getRetryDelayInMS","parameterTypes":[] }, {"name":"getZombieProbeDelayInMS","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.bifromq.starter.config.model.ClusterConfig",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getClusterDomainName","parameterTypes":[] }, {"name":"getEnv","parameterTypes":[] }, {"name":"getHost","parameterTypes":[] }, {"name":"getPort","parameterTypes":[] }, {"name":"getSeedEndpoints","parameterTypes":[] }, {"name":"setClusterDomainName","parameterTypes":["java.lang.String"] }, {"name":"setEnv","parameterTypes":["java.lang.String"] }, {"name":"setHost","parameterTypes":["java.lang.String"] }, {"name":"setPort","parameterTypes":["int"] }, {"name":"setSeedEndpoints","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"org.apache.bifromq.starter.config.model.RPCConfig",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"getClientEventLoopThreads","parameterTypes":[] }, {"name":"getClientSSLConfig","parameterTypes":[] }, {"name":"getHost","parameterTypes":[] }, {"name":"getPort","parameterTypes":[] }, {"name":"getServerEventLoopThreads","parameterTypes":[] }, {"name":"getServerSSLConfig","parameterTypes":[] }, {"name":"isEnableSSL","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.bifromq.starter.config.model.RocksDBEngineConfig",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"getBlockCacheSize","parameterTypes":[] }, {"name":"getCompactMinTombstoneKeys","parameterTypes":[] }, {"name":"getCompactMinTombstoneRanges","parameterTypes":[] }, {"name":"getCompactTombstoneRatio","parameterTypes":[] }, {"name":"getDataPathRoot","parameterTypes":[] }, {"name":"getIncreaseParallelism","parameterTypes":[] }, {"name":"getLevel0FileNumCompactionTrigger","parameterTypes":[] }, {"name":"getLevel0SlowdownWritesTrigger","parameterTypes":[] }, {"name":"getLevel0StopWritesTrigger","parameterTypes":[] }, {"name":"getMaxBackgroundJobs","parameterTypes":[] }, {"name":"getMaxBytesForLevelBase","parameterTypes":[] }, {"name":"getMaxWriteBufferNumber","parameterTypes":[] }, {"name":"getMinBlobSize","parameterTypes":[] }, {"name":"getMinWriteBufferNumberToMerge","parameterTypes":[] }, {"name":"getTargetFileSizeBase","parameterTypes":[] }, {"name":"getWriteBufferSize","parameterTypes":[] }, {"name":"isAsyncWALFlush","parameterTypes":[] }, {"name":"isFsyncWAL","parameterTypes":[] }, {"name":"isManualCompaction","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.bifromq.starter.config.model.SSLContextConfig",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.apache.bifromq.starter.config.model.ServerSSLContextConfig",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.apache.bifromq.starter.config.model.StorageEngineConfig",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true
+},
+{
+  "name":"org.apache.bifromq.starter.config.model.api.APIServerConfig",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"getHost","parameterTypes":[] }, {"name":"getHttpPort","parameterTypes":[] }, {"name":"getMaxContentLength","parameterTypes":[] }, {"name":"getSslConfig","parameterTypes":[] }, {"name":"getWorkerThreads","parameterTypes":[] }, {"name":"isEnable","parameterTypes":[] }, {"name":"isEnableSSL","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.bifromq.starter.config.model.dict.SessionDictClientConfig",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"getWorkerThreads","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.bifromq.starter.config.model.dict.SessionDictServerConfig",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"getAttributes","parameterTypes":[] }, {"name":"getDefaultGroups","parameterTypes":[] }, {"name":"getWorkerThreads","parameterTypes":[] }, {"name":"isEnable","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.bifromq.starter.config.model.dict.SessionDictServiceConfig",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"getClient","parameterTypes":[] }, {"name":"getServer","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.bifromq.starter.config.model.dist.DistClientConfig",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"getWorkerThreads","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.bifromq.starter.config.model.dist.DistServerConfig",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"getAttributes","parameterTypes":[] }, {"name":"getDefaultGroups","parameterTypes":[] }, {"name":"getWorkerThreads","parameterTypes":[] }, {"name":"isEnable","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.bifromq.starter.config.model.dist.DistServiceConfig",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"getClient","parameterTypes":[] }, {"name":"getServer","parameterTypes":[] }, {"name":"getWorker","parameterTypes":[] }, {"name":"getWorkerClient","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.bifromq.starter.config.model.dist.DistWorkerClientConfig",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"getQueryPipelinePerStore","parameterTypes":[] }, {"name":"getWorkerThreads","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.bifromq.starter.config.model.dist.DistWorkerConfig",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"getAttributes","parameterTypes":[] }, {"name":"getBalanceConfig","parameterTypes":[] }, {"name":"getCompactWALThreshold","parameterTypes":[] }, {"name":"getDataEngineConfig","parameterTypes":[] }, {"name":"getGcIntervalSeconds","parameterTypes":[] }, {"name":"getMaxWALFetchSize","parameterTypes":[] }, {"name":"getTickerThreads","parameterTypes":[] }, {"name":"getWalEngineConfig","parameterTypes":[] }, {"name":"getWorkerThreads","parameterTypes":[] }, {"name":"isEnable","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.bifromq.starter.config.model.inbox.InboxClientConfig",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"getWorkerThreads","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.bifromq.starter.config.model.inbox.InboxServerConfig",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"getAttributes","parameterTypes":[] }, {"name":"getDefaultGroups","parameterTypes":[] }, {"name":"getWorkerThreads","parameterTypes":[] }, {"name":"isEnable","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.bifromq.starter.config.model.inbox.InboxServiceConfig",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"getClient","parameterTypes":[] }, {"name":"getServer","parameterTypes":[] }, {"name":"getStore","parameterTypes":[] }, {"name":"getStoreClient","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.bifromq.starter.config.model.inbox.InboxStoreClientConfig",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"getQueryPipelinePerStore","parameterTypes":[] }, {"name":"getWorkerThreads","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.bifromq.starter.config.model.inbox.InboxStoreConfig",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"getAttributes","parameterTypes":[] }, {"name":"getBalanceConfig","parameterTypes":[] }, {"name":"getCompactWALThreshold","parameterTypes":[] }, {"name":"getDataEngineConfig","parameterTypes":[] }, {"name":"getExpireRateLimit","parameterTypes":[] }, {"name":"getGcIntervalSeconds","parameterTypes":[] }, {"name":"getMaxWALFetchSize","parameterTypes":[] }, {"name":"getQueryPipelinePerStore","parameterTypes":[] }, {"name":"getTickerThreads","parameterTypes":[] }, {"name":"getWalEngineConfig","parameterTypes":[] }, {"name":"getWorkerThreads","parameterTypes":[] }, {"name":"isEnable","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.bifromq.starter.config.model.mqtt.MQTTBrokerClientConfig",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"getWorkerThreads","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.bifromq.starter.config.model.mqtt.MQTTServerConfig",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getBossELGThreads","parameterTypes":[] }, {"name":"getConnTimeoutSec","parameterTypes":[] }, {"name":"getMaxConnBandwidth","parameterTypes":[] }, {"name":"getMaxConnPerSec","parameterTypes":[] }, {"name":"getMaxDisconnPerSec","parameterTypes":[] }, {"name":"getMaxMsgByteSize","parameterTypes":[] }, {"name":"getTcpListener","parameterTypes":[] }, {"name":"getTlsListener","parameterTypes":[] }, {"name":"getUserPropsCustomizerFactoryConfig","parameterTypes":[] }, {"name":"getWorkerELGThreads","parameterTypes":[] }, {"name":"getWsListener","parameterTypes":[] }, {"name":"getWssListener","parameterTypes":[] }, {"name":"isEnable","parameterTypes":[] }, {"name":"setTcpListener","parameterTypes":["org.apache.bifromq.starter.config.model.mqtt.listener.TCPListenerConfig"] }]
+},
+{
+  "name":"org.apache.bifromq.starter.config.model.mqtt.MQTTServiceConfig",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getClient","parameterTypes":[] }, {"name":"getServer","parameterTypes":[] }, {"name":"setServer","parameterTypes":["org.apache.bifromq.starter.config.model.mqtt.MQTTServerConfig"] }]
+},
+{
+  "name":"org.apache.bifromq.starter.config.model.mqtt.listener.TCPListenerConfig",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getHost","parameterTypes":[] }, {"name":"getPort","parameterTypes":[] }, {"name":"isEnable","parameterTypes":[] }, {"name":"setPort","parameterTypes":["int"] }]
+},
+{
+  "name":"org.apache.bifromq.starter.config.model.mqtt.listener.TLSListenerConfig",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"getHost","parameterTypes":[] }, {"name":"getPort","parameterTypes":[] }, {"name":"getSslConfig","parameterTypes":[] }, {"name":"isEnable","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.bifromq.starter.config.model.mqtt.listener.WSListenerConfig",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"getHost","parameterTypes":[] }, {"name":"getPort","parameterTypes":[] }, {"name":"getWsPath","parameterTypes":[] }, {"name":"isEnable","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.bifromq.starter.config.model.mqtt.listener.WSSListenerConfig",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"getHost","parameterTypes":[] }, {"name":"getPort","parameterTypes":[] }, {"name":"getSslConfig","parameterTypes":[] }, {"name":"getWsPath","parameterTypes":[] }, {"name":"isEnable","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.bifromq.starter.config.model.retain.RetainClientConfig",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"getWorkerThreads","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.bifromq.starter.config.model.retain.RetainServerConfig",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"getAttributes","parameterTypes":[] }, {"name":"getDefaultGroups","parameterTypes":[] }, {"name":"getWorkerThreads","parameterTypes":[] }, {"name":"isEnable","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.bifromq.starter.config.model.retain.RetainServiceConfig",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"getClient","parameterTypes":[] }, {"name":"getServer","parameterTypes":[] }, {"name":"getStore","parameterTypes":[] }, {"name":"getStoreClient","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.bifromq.starter.config.model.retain.RetainStoreClientConfig",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"getQueryPipelinePerStore","parameterTypes":[] }, {"name":"getWorkerThreads","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.bifromq.starter.config.model.retain.RetainStoreConfig",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"getAttributes","parameterTypes":[] }, {"name":"getBalanceConfig","parameterTypes":[] }, {"name":"getCompactWALThreshold","parameterTypes":[] }, {"name":"getDataEngineConfig","parameterTypes":[] }, {"name":"getGcIntervalSeconds","parameterTypes":[] }, {"name":"getMaxWALFetchSize","parameterTypes":[] }, {"name":"getQueryPipelinePerStore","parameterTypes":[] }, {"name":"getTickerThreads","parameterTypes":[] }, {"name":"getWalEngineConfig","parameterTypes":[] }, {"name":"getWorkerThreads","parameterTypes":[] }, {"name":"isEnable","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.bifromq.starter.config.model.serde.StructMapDeserializer",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.bifromq.starter.config.model.serde.StructMapSerializer",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.bifromq.starter.module.APIServerModule",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.apache.bifromq.starter.module.APIServerModule$APIServerProvider",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["org.apache.bifromq.starter.config.StandaloneConfig","org.apache.bifromq.starter.module.ServiceInjector"] }]
+},
+{
+  "name":"org.apache.bifromq.starter.module.ConfigModule",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.apache.bifromq.starter.module.CoreServiceModule",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.apache.bifromq.starter.module.CoreServiceModule$AgentHostProvider",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["org.apache.bifromq.starter.config.StandaloneConfig","org.apache.bifromq.starter.module.SharedResourcesHolder"] }]
+},
+{
+  "name":"org.apache.bifromq.starter.module.CoreServiceModule$BaseKVMetaServiceProvider",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["org.apache.bifromq.basecrdt.service.ICRDTService","org.apache.bifromq.starter.module.SharedResourcesHolder"] }]
+},
+{
+  "name":"org.apache.bifromq.starter.module.CoreServiceModule$CRDTServiceProvider",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["org.apache.bifromq.starter.config.StandaloneConfig","org.apache.bifromq.basecluster.IAgentHost","org.apache.bifromq.starter.module.SharedResourcesHolder"] }]
+},
+{
+  "name":"org.apache.bifromq.starter.module.CoreServiceModule$DistClientProvider",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["org.apache.bifromq.starter.config.StandaloneConfig","io.netty.channel.EventLoopGroup","java.util.Optional","org.apache.bifromq.baserpc.trafficgovernor.IRPCServiceTrafficService","org.apache.bifromq.starter.module.SharedResourcesHolder"] }]
+},
+{
+  "name":"org.apache.bifromq.starter.module.CoreServiceModule$DistWorkerClientProvider",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["org.apache.bifromq.starter.config.StandaloneConfig","org.apache.bifromq.baserpc.trafficgovernor.IRPCServiceTrafficService","org.apache.bifromq.basekv.metaservice.IBaseKVMetaService","java.util.Optional","io.netty.channel.EventLoopGroup","org.apache.bifromq.starter.module.SharedResourcesHolder"] }]
+},
+{
+  "name":"org.apache.bifromq.starter.module.CoreServiceModule$InboxClientProvider",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["io.netty.channel.EventLoopGroup","java.util.Optional","org.apache.bifromq.baserpc.trafficgovernor.IRPCServiceTrafficService","org.apache.bifromq.starter.module.SharedResourcesHolder"] }]
+},
+{
+  "name":"org.apache.bifromq.starter.module.CoreServiceModule$InboxStoreClientProvider",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["org.apache.bifromq.starter.config.StandaloneConfig","org.apache.bifromq.baserpc.trafficgovernor.IRPCServiceTrafficService","org.apache.bifromq.basekv.metaservice.IBaseKVMetaService","java.util.Optional","io.netty.channel.EventLoopGroup","org.apache.bifromq.starter.module.SharedResourcesHolder"] }]
+},
+{
+  "name":"org.apache.bifromq.starter.module.CoreServiceModule$MQTTBrokerClientProvider",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["org.apache.bifromq.starter.config.StandaloneConfig","io.netty.channel.EventLoopGroup","java.util.Optional","org.apache.bifromq.baserpc.trafficgovernor.IRPCServiceTrafficService","org.apache.bifromq.starter.module.SharedResourcesHolder"] }]
+},
+{
+  "name":"org.apache.bifromq.starter.module.CoreServiceModule$RPCServiceTrafficServiceProvider",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["org.apache.bifromq.basecrdt.service.ICRDTService","org.apache.bifromq.starter.module.SharedResourcesHolder"] }]
+},
+{
+  "name":"org.apache.bifromq.starter.module.CoreServiceModule$RetainClientProvider",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["io.netty.channel.EventLoopGroup","java.util.Optional","org.apache.bifromq.baserpc.trafficgovernor.IRPCServiceTrafficService","org.apache.bifromq.starter.module.SharedResourcesHolder"] }]
+},
+{
+  "name":"org.apache.bifromq.starter.module.CoreServiceModule$RetainStoreClientProvider",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["org.apache.bifromq.starter.config.StandaloneConfig","io.netty.channel.EventLoopGroup","org.apache.bifromq.baserpc.trafficgovernor.IRPCServiceTrafficService","org.apache.bifromq.basekv.metaservice.IBaseKVMetaService","java.util.Optional","org.apache.bifromq.starter.module.SharedResourcesHolder"] }]
+},
+{
+  "name":"org.apache.bifromq.starter.module.CoreServiceModule$SessionDictClientProvider",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["org.apache.bifromq.starter.config.StandaloneConfig","io.netty.channel.EventLoopGroup","java.util.Optional","org.apache.bifromq.baserpc.trafficgovernor.IRPCServiceTrafficService","org.apache.bifromq.starter.module.SharedResourcesHolder"] }]
+},
+{
+  "name":"org.apache.bifromq.starter.module.CoreServiceModule$SharedCloseableResourcesProvider",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.bifromq.starter.module.DistServiceModule",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.apache.bifromq.starter.module.DistServiceModule$DistServerProvider",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["org.apache.bifromq.starter.config.StandaloneConfig","org.apache.bifromq.starter.module.ServiceInjector"] }]
+},
+{
+  "name":"org.apache.bifromq.starter.module.DistServiceModule$DistWorkerProvider",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["org.apache.bifromq.starter.config.StandaloneConfig","org.apache.bifromq.starter.module.ServiceInjector"] }]
+},
+{
+  "name":"org.apache.bifromq.starter.module.ExecutorsModule",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.apache.bifromq.starter.module.ExecutorsModule$BackgroundTaskSchedulerProvider",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["org.apache.bifromq.starter.config.StandaloneConfig"] }]
+},
+{
+  "name":"org.apache.bifromq.starter.module.ExecutorsModule$RPCClientEventLoopProvider",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["org.apache.bifromq.starter.config.StandaloneConfig"] }]
+},
+{
+  "name":"org.apache.bifromq.starter.module.InboxServiceModule",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.apache.bifromq.starter.module.InboxServiceModule$InboxServerProvider",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["org.apache.bifromq.starter.config.StandaloneConfig","org.apache.bifromq.starter.module.ServiceInjector"] }]
+},
+{
+  "name":"org.apache.bifromq.starter.module.InboxServiceModule$InboxStoreProvider",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["org.apache.bifromq.starter.config.StandaloneConfig","org.apache.bifromq.starter.module.ServiceInjector"] }]
+},
+{
+  "name":"org.apache.bifromq.starter.module.MQTTServiceModule",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.apache.bifromq.starter.module.MQTTServiceModule$MQTTBrokerServerProvider",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["org.apache.bifromq.starter.config.StandaloneConfig","org.apache.bifromq.starter.module.ServiceInjector"] }]
+},
+{
+  "name":"org.apache.bifromq.starter.module.PluginModule",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.apache.bifromq.starter.module.PluginModule$AuthProviderManagerProvider",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["org.apache.bifromq.starter.config.StandaloneConfig","org.pf4j.PluginManager","org.apache.bifromq.plugin.settingprovider.SettingProviderManager","org.apache.bifromq.plugin.eventcollector.EventCollectorManager","org.apache.bifromq.starter.module.SharedResourcesHolder"] }]
+},
+{
+  "name":"org.apache.bifromq.starter.module.PluginModule$ClientBalancerManagerProvider",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["org.pf4j.PluginManager","org.apache.bifromq.starter.module.SharedResourcesHolder"] }]
+},
+{
+  "name":"org.apache.bifromq.starter.module.PluginModule$EventCollectorManagerProvider",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["org.pf4j.PluginManager","org.apache.bifromq.starter.module.SharedResourcesHolder"] }]
+},
+{
+  "name":"org.apache.bifromq.starter.module.PluginModule$PluginManagerProvider",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["org.apache.bifromq.starter.module.SharedResourcesHolder"] }]
+},
+{
+  "name":"org.apache.bifromq.starter.module.PluginModule$ResourceThrottlerManagerProvider",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["org.apache.bifromq.starter.config.StandaloneConfig","org.pf4j.PluginManager","org.apache.bifromq.starter.module.SharedResourcesHolder"] }]
+},
+{
+  "name":"org.apache.bifromq.starter.module.PluginModule$SettingProviderManagerProvider",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["org.apache.bifromq.starter.config.StandaloneConfig","org.pf4j.PluginManager","org.apache.bifromq.starter.module.SharedResourcesHolder"] }]
+},
+{
+  "name":"org.apache.bifromq.starter.module.PluginModule$SubBrokerManagerProvider",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["org.pf4j.PluginManager","org.apache.bifromq.mqtt.inbox.IMqttBrokerClient","org.apache.bifromq.inbox.client.IInboxClient","org.apache.bifromq.starter.module.SharedResourcesHolder"] }]
+},
+{
+  "name":"org.apache.bifromq.starter.module.RPCClientSSLContextModule",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.apache.bifromq.starter.module.RPCClientSSLContextModule$RPCClientSSLContextProvider",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["org.apache.bifromq.starter.config.StandaloneConfig"] }]
+},
+{
+  "name":"org.apache.bifromq.starter.module.RPCServerBuilderModule",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.apache.bifromq.starter.module.RPCServerBuilderModule$RPCServerBuilderProvider",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["org.apache.bifromq.starter.config.StandaloneConfig","org.apache.bifromq.baserpc.trafficgovernor.IRPCServiceTrafficService"] }]
+},
+{
+  "name":"org.apache.bifromq.starter.module.RetainServiceModule",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.apache.bifromq.starter.module.RetainServiceModule$RetainServerProvider",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["org.apache.bifromq.starter.config.StandaloneConfig","org.apache.bifromq.starter.module.ServiceInjector"] }]
+},
+{
+  "name":"org.apache.bifromq.starter.module.RetainServiceModule$RetainStoreProvider",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["org.apache.bifromq.starter.config.StandaloneConfig","org.apache.bifromq.starter.module.ServiceInjector"] }]
+},
+{
+  "name":"org.apache.bifromq.starter.module.ServiceInjector",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.apache.bifromq.starter.module.ServiceInjectorModule",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.apache.bifromq.starter.module.SessionDictServiceModule",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.apache.bifromq.starter.module.SessionDictServiceModule$SessionDictServerProvider",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["org.apache.bifromq.starter.config.StandaloneConfig","org.apache.bifromq.starter.module.ServiceInjector"] }]
+},
+{
+  "name":"org.apache.bifromq.starter.module.SharedResourceProvider",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"org.apache.bifromq.sysprops.BifroMQSysProp"
+},
+{
+  "name":"org.apache.bifromq.sysprops.parser.PropParser"
+},
+{
+  "name":"org.apache.bifromq.sysprops.props.ClientRedirectCheckIntervalSeconds",
+  "fields":[{"name":"INSTANCE"}]
+},
+{
+  "name":"org.apache.bifromq.sysprops.props.ClusterDomainResolveTimeoutSeconds",
+  "fields":[{"name":"INSTANCE"}]
+},
+{
+  "name":"org.apache.bifromq.sysprops.props.ControlPlaneMaxBurstLatencyMillis",
+  "fields":[{"name":"INSTANCE"}]
+},
+{
+  "name":"org.apache.bifromq.sysprops.props.DataPlaneMaxBurstLatencyMillis",
+  "fields":[{"name":"INSTANCE"}]
+},
+{
+  "name":"org.apache.bifromq.sysprops.props.DeliverersPerMqttServer",
+  "fields":[{"name":"INSTANCE"}]
+},
+{
+  "name":"org.apache.bifromq.sysprops.props.DistCachedRoutesFanoutCheckIntervalSeconds",
+  "fields":[{"name":"INSTANCE"}]
+},
+{
+  "name":"org.apache.bifromq.sysprops.props.DistFanOutParallelism",
+  "fields":[{"name":"INSTANCE"}]
+},
+{
+  "name":"org.apache.bifromq.sysprops.props.DistInlineFanOutThreshold",
+  "fields":[{"name":"INSTANCE"}]
+},
+{
+  "name":"org.apache.bifromq.sysprops.props.DistMatchParallelism",
+  "fields":[{"name":"INSTANCE"}]
+},
+{
+  "name":"org.apache.bifromq.sysprops.props.DistMaxCachedRoutesPerTenant",
+  "fields":[{"name":"INSTANCE"}]
+},
+{
+  "name":"org.apache.bifromq.sysprops.props.DistTopicMatchExpirySeconds",
+  "fields":[{"name":"INSTANCE"}]
+},
+{
+  "name":"org.apache.bifromq.sysprops.props.DistWorkerCallQueueNum",
+  "fields":[{"name":"INSTANCE"}]
+},
+{
+  "name":"org.apache.bifromq.sysprops.props.DistWorkerFanOutSplitThreshold",
+  "fields":[{"name":"INSTANCE"}]
+},
+{
+  "name":"org.apache.bifromq.sysprops.props.DistWorkerLoadEstimationWindowSeconds",
+  "fields":[{"name":"INSTANCE"}]
+},
+{
+  "name":"org.apache.bifromq.sysprops.props.InboxCheckQueuesPerRange",
+  "fields":[{"name":"INSTANCE"}]
+},
+{
+  "name":"org.apache.bifromq.sysprops.props.InboxDelivererNum",
+  "fields":[{"name":"INSTANCE"}]
+},
+{
+  "name":"org.apache.bifromq.sysprops.props.InboxFetchQueuesPerRange",
+  "fields":[{"name":"INSTANCE"}]
+},
+{
+  "name":"org.apache.bifromq.sysprops.props.InboxStoreLoadEstimationWindowSeconds",
+  "fields":[{"name":"INSTANCE"}]
+},
+{
+  "name":"org.apache.bifromq.sysprops.props.IngressSlowDownDirectMemoryUsage",
+  "fields":[{"name":"INSTANCE"}]
+},
+{
+  "name":"org.apache.bifromq.sysprops.props.IngressSlowDownHeapMemoryUsage",
+  "fields":[{"name":"INSTANCE"}]
+},
+{
+  "name":"org.apache.bifromq.sysprops.props.MaxMqtt3ClientIdLength",
+  "fields":[{"name":"INSTANCE"}]
+},
+{
+  "name":"org.apache.bifromq.sysprops.props.MaxMqtt5ClientIdLength",
+  "fields":[{"name":"INSTANCE"}]
+},
+{
+  "name":"org.apache.bifromq.sysprops.props.MaxSlowDownTimeoutSeconds",
+  "fields":[{"name":"INSTANCE"}]
+},
+{
+  "name":"org.apache.bifromq.sysprops.props.PersistentSessionDetachTimeoutSecond",
+  "fields":[{"name":"INSTANCE"}]
+},
+{
+  "name":"org.apache.bifromq.sysprops.props.RetainStoreLoadEstimationWindowSeconds",
+  "fields":[{"name":"INSTANCE"}]
+},
+{
+  "name":"org.apache.bifromq.sysprops.props.SanityCheckMqttUtf8String",
+  "fields":[{"name":"INSTANCE"}]
+},
+{
+  "name":"org.apache.bifromq.sysprops.props.SessionRegisterNumber",
+  "fields":[{"name":"INSTANCE"}]
+},
+{
+  "name":"org.apache.bifromq.util.index.INode",
+  "fields":[{"name":"main"}]
+},
+{
+  "name":"org.apache.bifromq.util.index.TopicLevelTrie",
+  "fields":[{"name":"root"}]
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.AbstractAppender$Builder",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.AbstractOutputStreamAppender$Builder",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.AppenderSet"
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.AsyncAppender"
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.ConsoleAppender",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"newBuilder","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.ConsoleAppender$Builder",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.CountingNoOpAppender"
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.FailoverAppender"
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.FailoversPlugin"
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.FileAppender"
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.HttpAppender"
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.MemoryMappedFileAppender"
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.NullAppender"
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.OutputStreamAppender"
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.RandomAccessFileAppender"
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.RollingFileAppender",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"newBuilder","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.RollingFileAppender$Builder",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.RollingRandomAccessFileAppender"
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.ScriptAppenderSelector"
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.SmtpAppender"
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.SocketAppender"
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.SyslogAppender"
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.WriterAppender"
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.db.ColumnMapping"
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.db.jdbc.ColumnConfig"
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.db.jdbc.DataSourceConnectionSource"
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.db.jdbc.DriverManagerConnectionSource"
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.db.jdbc.FactoryMethodConnectionSource"
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.db.jdbc.JdbcAppender"
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.mom.JmsAppender"
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.mom.jeromq.JeroMqAppender"
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.mom.kafka.KafkaAppender"
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.nosql.NoSqlAppender"
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.rewrite.LoggerNameLevelRewritePolicy"
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.rewrite.MapRewritePolicy"
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.rewrite.PropertiesRewritePolicy"
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.rewrite.RewriteAppender"
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.rolling.CompositeTriggeringPolicy",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"createPolicy","parameterTypes":["org.apache.logging.log4j.core.appender.rolling.TriggeringPolicy[]"] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.rolling.CronTriggeringPolicy"
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.rolling.DefaultRolloverStrategy",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"newBuilder","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.rolling.DefaultRolloverStrategy$Builder",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.rolling.DirectWriteRolloverStrategy"
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.rolling.NoOpTriggeringPolicy"
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.rolling.OnStartupTriggeringPolicy"
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.rolling.RollingFileManager",
+  "fields":[{"name":"patternProcessor"}, {"name":"rolloverStrategy"}, {"name":"triggeringPolicy"}]
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.rolling.SizeBasedTriggeringPolicy"
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.rolling.TimeBasedTriggeringPolicy",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"newBuilder","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.rolling.TimeBasedTriggeringPolicy$Builder",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.rolling.action.DeleteAction"
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.rolling.action.IfAccumulatedFileCount"
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.rolling.action.IfAccumulatedFileSize"
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.rolling.action.IfAll"
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.rolling.action.IfAny"
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.rolling.action.IfFileName"
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.rolling.action.IfLastModified"
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.rolling.action.IfNot"
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.rolling.action.PathSortByModificationTime"
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.rolling.action.PosixViewAttributeAction"
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.rolling.action.ScriptCondition"
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.routing.IdlePurgePolicy"
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.routing.Route",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"createRoute","parameterTypes":["java.lang.String","java.lang.String","org.apache.logging.log4j.core.config.Node"] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.routing.Routes",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"newBuilder","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.routing.Routes$Builder",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.routing.RoutingAppender",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"newBuilder","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.appender.routing.RoutingAppender$Builder",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.apache.logging.log4j.core.async.ArrayBlockingQueueFactory"
+},
+{
+  "name":"org.apache.logging.log4j.core.async.AsyncLoggerConfig"
+},
+{
+  "name":"org.apache.logging.log4j.core.async.AsyncLoggerConfig$RootLogger"
+},
+{
+  "name":"org.apache.logging.log4j.core.async.AsyncWaitStrategyFactoryConfig"
+},
+{
+  "name":"org.apache.logging.log4j.core.async.DisruptorBlockingQueueFactory"
+},
+{
+  "name":"org.apache.logging.log4j.core.async.JCToolsBlockingQueueFactory"
+},
+{
+  "name":"org.apache.logging.log4j.core.async.LinkedTransferQueueFactory"
+},
+{
+  "name":"org.apache.logging.log4j.core.config.AppenderControlArraySet",
+  "fields":[{"name":"appenderArray"}]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.AppenderRef",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"createAppenderRef","parameterTypes":["java.lang.String","org.apache.logging.log4j.Level","org.apache.logging.log4j.core.Filter"] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.AppendersPlugin",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"createAppenders","parameterTypes":["org.apache.logging.log4j.core.Appender[]"] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.CustomLevelConfig"
+},
+{
+  "name":"org.apache.logging.log4j.core.config.CustomLevels"
+},
+{
+  "name":"org.apache.logging.log4j.core.config.DefaultAdvertiser"
+},
+{
+  "name":"org.apache.logging.log4j.core.config.HttpWatcher"
+},
+{
+  "name":"org.apache.logging.log4j.core.config.LoggerConfig",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"newBuilder","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.LoggerConfig$Builder",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.apache.logging.log4j.core.config.LoggerConfig$RootLogger",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"newRootBuilder","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.LoggerConfig$RootLogger$Builder",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.apache.logging.log4j.core.config.LoggersPlugin",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"createLoggers","parameterTypes":["org.apache.logging.log4j.core.config.LoggerConfig[]"] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.PropertiesPlugin",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"configureSubstitutor","parameterTypes":["org.apache.logging.log4j.core.config.Property[]","org.apache.logging.log4j.core.config.Configuration"] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.Property",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"createProperty","parameterTypes":["java.lang.String","java.lang.String","org.apache.logging.log4j.core.config.Configuration"] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.ScriptsPlugin"
+},
+{
+  "name":"org.apache.logging.log4j.core.config.arbiters.ClassArbiter"
+},
+{
+  "name":"org.apache.logging.log4j.core.config.arbiters.DefaultArbiter"
+},
+{
+  "name":"org.apache.logging.log4j.core.config.arbiters.EnvironmentArbiter"
+},
+{
+  "name":"org.apache.logging.log4j.core.config.arbiters.ScriptArbiter"
+},
+{
+  "name":"org.apache.logging.log4j.core.config.arbiters.SelectArbiter"
+},
+{
+  "name":"org.apache.logging.log4j.core.config.arbiters.SystemPropertyArbiter"
+},
+{
+  "name":"org.apache.logging.log4j.core.config.json.JsonConfigurationFactory",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$BigDecimalConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$BigIntegerConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$BooleanConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$ByteArrayConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$ByteConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$CharArrayConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$CharacterConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$CharsetConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$ClassConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$CronExpressionConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$DoubleConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$DurationConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$FileConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$FloatConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$InetAddressConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$IntegerConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$LevelConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$LongConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$PathConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$PatternConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$SecurityProviderConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$ShortConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$StringConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$UriConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$UrlConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.convert.TypeConverters$UuidConverter",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.validation.validators.RequiredValidator",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.visitors.PluginAttributeVisitor",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.visitors.PluginBuilderAttributeVisitor",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.visitors.PluginConfigurationVisitor",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.visitors.PluginElementVisitor",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.visitors.PluginNodeVisitor",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.plugins.visitors.PluginValueVisitor",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.properties.PropertiesConfigurationFactory",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.xml.XmlConfigurationFactory",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.config.yaml.YamlConfigurationFactory",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.filter.AbstractFilter$AbstractFilterBuilder",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.apache.logging.log4j.core.filter.AbstractFilterable$Builder",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.apache.logging.log4j.core.filter.BurstFilter"
+},
+{
+  "name":"org.apache.logging.log4j.core.filter.CompositeFilter",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"createFilters","parameterTypes":["org.apache.logging.log4j.core.Filter[]"] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.filter.DenyAllFilter"
+},
+{
+  "name":"org.apache.logging.log4j.core.filter.DynamicThresholdFilter"
+},
+{
+  "name":"org.apache.logging.log4j.core.filter.LevelMatchFilter",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"newBuilder","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.filter.LevelMatchFilter$Builder",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.apache.logging.log4j.core.filter.LevelRangeFilter"
+},
+{
+  "name":"org.apache.logging.log4j.core.filter.MapFilter"
+},
+{
+  "name":"org.apache.logging.log4j.core.filter.MarkerFilter"
+},
+{
+  "name":"org.apache.logging.log4j.core.filter.MutableThreadContextMapFilter"
+},
+{
+  "name":"org.apache.logging.log4j.core.filter.NoMarkerFilter"
+},
+{
+  "name":"org.apache.logging.log4j.core.filter.RegexFilter"
+},
+{
+  "name":"org.apache.logging.log4j.core.filter.ScriptFilter"
+},
+{
+  "name":"org.apache.logging.log4j.core.filter.StringMatchFilter"
+},
+{
+  "name":"org.apache.logging.log4j.core.filter.StructuredDataFilter"
+},
+{
+  "name":"org.apache.logging.log4j.core.filter.ThreadContextMapFilter"
+},
+{
+  "name":"org.apache.logging.log4j.core.filter.ThresholdFilter",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"createFilter","parameterTypes":["org.apache.logging.log4j.Level","org.apache.logging.log4j.core.Filter$Result","org.apache.logging.log4j.core.Filter$Result"] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.filter.TimeFilter"
+},
+{
+  "name":"org.apache.logging.log4j.core.layout.CsvLogEventLayout"
+},
+{
+  "name":"org.apache.logging.log4j.core.layout.CsvParameterLayout"
+},
+{
+  "name":"org.apache.logging.log4j.core.layout.GelfLayout"
+},
+{
+  "name":"org.apache.logging.log4j.core.layout.HtmlLayout"
+},
+{
+  "name":"org.apache.logging.log4j.core.layout.JsonLayout"
+},
+{
+  "name":"org.apache.logging.log4j.core.layout.LevelPatternSelector"
+},
+{
+  "name":"org.apache.logging.log4j.core.layout.LoggerFields"
+},
+{
+  "name":"org.apache.logging.log4j.core.layout.MarkerPatternSelector"
+},
+{
+  "name":"org.apache.logging.log4j.core.layout.MessageLayout"
+},
+{
+  "name":"org.apache.logging.log4j.core.layout.PatternLayout",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"newBuilder","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.layout.PatternLayout$Builder",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.apache.logging.log4j.core.layout.PatternMatch"
+},
+{
+  "name":"org.apache.logging.log4j.core.layout.Rfc5424Layout"
+},
+{
+  "name":"org.apache.logging.log4j.core.layout.ScriptPatternSelector"
+},
+{
+  "name":"org.apache.logging.log4j.core.layout.SerializedLayout"
+},
+{
+  "name":"org.apache.logging.log4j.core.layout.SyslogLayout"
+},
+{
+  "name":"org.apache.logging.log4j.core.layout.XmlLayout"
+},
+{
+  "name":"org.apache.logging.log4j.core.layout.YamlLayout"
+},
+{
+  "name":"org.apache.logging.log4j.core.lookup.ContextMapLookup",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.lookup.DateLookup",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.lookup.EnvironmentLookup",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.lookup.EventLookup",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.lookup.JavaLookup",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.lookup.JmxRuntimeInputArgumentsLookup",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.lookup.JndiLookup"
+},
+{
+  "name":"org.apache.logging.log4j.core.lookup.Log4jLookup",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.lookup.LowerLookup",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.lookup.MainMapLookup",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.lookup.MapLookup",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.lookup.MarkerLookup",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.lookup.ResourceBundleLookup",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.lookup.StructuredDataLookup",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.lookup.SystemPropertiesLookup",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.lookup.UpperLookup",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.net.MulticastDnsAdvertiser"
+},
+{
+  "name":"org.apache.logging.log4j.core.net.SocketAddress"
+},
+{
+  "name":"org.apache.logging.log4j.core.net.SocketOptions"
+},
+{
+  "name":"org.apache.logging.log4j.core.net.SocketPerformancePreferences"
+},
+{
+  "name":"org.apache.logging.log4j.core.net.ssl.KeyStoreConfiguration"
+},
+{
+  "name":"org.apache.logging.log4j.core.net.ssl.SslConfiguration"
+},
+{
+  "name":"org.apache.logging.log4j.core.net.ssl.TrustStoreConfiguration"
+},
+{
+  "name":"org.apache.logging.log4j.core.pattern.AbstractStyleNameConverter$Black"
+},
+{
+  "name":"org.apache.logging.log4j.core.pattern.AbstractStyleNameConverter$Blue"
+},
+{
+  "name":"org.apache.logging.log4j.core.pattern.AbstractStyleNameConverter$Cyan"
+},
+{
+  "name":"org.apache.logging.log4j.core.pattern.AbstractStyleNameConverter$Green"
+},
+{
+  "name":"org.apache.logging.log4j.core.pattern.AbstractStyleNameConverter$Magenta"
+},
+{
+  "name":"org.apache.logging.log4j.core.pattern.AbstractStyleNameConverter$Red"
+},
+{
+  "name":"org.apache.logging.log4j.core.pattern.AbstractStyleNameConverter$White"
+},
+{
+  "name":"org.apache.logging.log4j.core.pattern.AbstractStyleNameConverter$Yellow"
+},
+{
+  "name":"org.apache.logging.log4j.core.pattern.ClassNamePatternConverter"
+},
+{
+  "name":"org.apache.logging.log4j.core.pattern.DatePatternConverter",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"newInstance","parameterTypes":["java.lang.String[]"] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.pattern.EncodingPatternConverter"
+},
+{
+  "name":"org.apache.logging.log4j.core.pattern.EndOfBatchPatternConverter"
+},
+{
+  "name":"org.apache.logging.log4j.core.pattern.EqualsIgnoreCaseReplacementConverter"
+},
+{
+  "name":"org.apache.logging.log4j.core.pattern.EqualsReplacementConverter"
+},
+{
+  "name":"org.apache.logging.log4j.core.pattern.ExtendedThrowablePatternConverter"
+},
+{
+  "name":"org.apache.logging.log4j.core.pattern.FileDatePatternConverter",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"newInstance","parameterTypes":["java.lang.String[]"] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.pattern.FileLocationPatternConverter",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"newInstance","parameterTypes":["java.lang.String[]"] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.pattern.FullLocationPatternConverter"
+},
+{
+  "name":"org.apache.logging.log4j.core.pattern.HighlightConverter"
+},
+{
+  "name":"org.apache.logging.log4j.core.pattern.IntegerPatternConverter"
+},
+{
+  "name":"org.apache.logging.log4j.core.pattern.LevelPatternConverter",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"newInstance","parameterTypes":["java.lang.String[]"] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.pattern.LineLocationPatternConverter",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"newInstance","parameterTypes":["java.lang.String[]"] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.pattern.LineSeparatorPatternConverter",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"newInstance","parameterTypes":["java.lang.String[]"] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.pattern.LoggerFqcnPatternConverter"
+},
+{
+  "name":"org.apache.logging.log4j.core.pattern.LoggerPatternConverter",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"newInstance","parameterTypes":["java.lang.String[]"] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.pattern.MapPatternConverter"
+},
+{
+  "name":"org.apache.logging.log4j.core.pattern.MarkerPatternConverter"
+},
+{
+  "name":"org.apache.logging.log4j.core.pattern.MarkerSimpleNamePatternConverter"
+},
+{
+  "name":"org.apache.logging.log4j.core.pattern.MaxLengthConverter"
+},
+{
+  "name":"org.apache.logging.log4j.core.pattern.MdcPatternConverter",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"newInstance","parameterTypes":["java.lang.String[]"] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.pattern.MessagePatternConverter",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"newInstance","parameterTypes":["org.apache.logging.log4j.core.config.Configuration","java.lang.String[]"] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.pattern.MethodLocationPatternConverter"
+},
+{
+  "name":"org.apache.logging.log4j.core.pattern.NanoTimePatternConverter"
+},
+{
+  "name":"org.apache.logging.log4j.core.pattern.NdcPatternConverter"
+},
+{
+  "name":"org.apache.logging.log4j.core.pattern.ProcessIdPatternConverter",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"newInstance","parameterTypes":["java.lang.String[]"] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.pattern.RegexReplacement"
+},
+{
+  "name":"org.apache.logging.log4j.core.pattern.RegexReplacementConverter"
+},
+{
+  "name":"org.apache.logging.log4j.core.pattern.RelativeTimePatternConverter"
+},
+{
+  "name":"org.apache.logging.log4j.core.pattern.RepeatPatternConverter"
+},
+{
+  "name":"org.apache.logging.log4j.core.pattern.RootThrowablePatternConverter"
+},
+{
+  "name":"org.apache.logging.log4j.core.pattern.SequenceNumberPatternConverter"
+},
+{
+  "name":"org.apache.logging.log4j.core.pattern.StyleConverter"
+},
+{
+  "name":"org.apache.logging.log4j.core.pattern.ThreadIdPatternConverter"
+},
+{
+  "name":"org.apache.logging.log4j.core.pattern.ThreadNamePatternConverter",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"newInstance","parameterTypes":["java.lang.String[]"] }]
+},
+{
+  "name":"org.apache.logging.log4j.core.pattern.ThreadPriorityPatternConverter"
+},
+{
+  "name":"org.apache.logging.log4j.core.pattern.ThrowablePatternConverter"
+},
+{
+  "name":"org.apache.logging.log4j.core.pattern.UuidPatternConverter"
+},
+{
+  "name":"org.apache.logging.log4j.core.pattern.VariablesNotEmptyReplacementConverter"
+},
+{
+  "name":"org.apache.logging.log4j.core.script.Script"
+},
+{
+  "name":"org.apache.logging.log4j.core.script.ScriptFile"
+},
+{
+  "name":"org.apache.logging.log4j.core.script.ScriptRef"
+},
+{
+  "name":"org.apache.logging.log4j.core.util.KeyValuePair"
+},
+{
+  "name":"org.osgi.framework.FrameworkUtil"
+},
+{
+  "name":"org.pf4j.ExtensionPoint"
+},
+{
+  "name":"org.robolectric.Robolectric"
+},
+{
+  "name":"sun.misc.Unsafe",
+  "allDeclaredFields":true,
+  "methods":[{"name":"arrayBaseOffset","parameterTypes":["java.lang.Class"] }, {"name":"arrayIndexScale","parameterTypes":["java.lang.Class"] }, {"name":"copyMemory","parameterTypes":["long","long","long"] }, {"name":"copyMemory","parameterTypes":["java.lang.Object","long","java.lang.Object","long","long"] }, {"name":"defineAnonymousClass","parameterTypes":["java.lang.Class","byte[]","java.lang.Object[]"] }, {"name":"getAndAddLong","parameterTypes":["java.lang.Object","long","long"] }, {"name":"getAndSetObject","parameterTypes":["java.lang.Object","long","java.lang.Object"] }, {"name":"getBoolean","parameterTypes":["java.lang.Object","long"] }, {"name":"getByte","parameterTypes":["long"] }, {"name":"getByte","parameterTypes":["java.lang.Object","long"] }, {"name":"getDouble","parameterTypes":["java.lang.Object","long"] }, {"name":"getFloat","parameterTypes":["java.lang.Object","long"] }, {"name":"getInt","parameterTypes":["long"] }, {"name":"getInt","parameterTypes":["java.lang.Object","long"] }, {"name":"getLong","parameterTypes":["long"] }, {"name":"getLong","parameterTypes":["java.lang.Object","long"] }, {"name":"getObject","parameterTypes":["java.lang.Object","long"] }, {"name":"invokeCleaner","parameterTypes":["java.nio.ByteBuffer"] }, {"name":"objectFieldOffset","parameterTypes":["java.lang.reflect.Field"] }, {"name":"putBoolean","parameterTypes":["java.lang.Object","long","boolean"] }, {"name":"putByte","parameterTypes":["long","byte"] }, {"name":"putByte","parameterTypes":["java.lang.Object","long","byte"] }, {"name":"putDouble","parameterTypes":["java.lang.Object","long","double"] }, {"name":"putFloat","parameterTypes":["java.lang.Object","long","float"] }, {"name":"putInt","parameterTypes":["long","int"] }, {"name":"putInt","parameterTypes":["java.lang.Object","long","int"] }, {"name":"putLong","parameterTypes":["long","long"] }, {"name":"putLong","parameterTypes":["java.lang.Object","long","long"] }, {"name":"putObject","parameterTypes":["java.lang.Object","long","java.lang.Object"] }, {"name":"storeFence","parameterTypes":[] }]
+},
+{
+  "name":"sun.security.provider.NativePRNG",
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"<init>","parameterTypes":["java.security.SecureRandomParameters"] }]
+},
+{
+  "name":"sun.security.provider.SHA",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+}
+]

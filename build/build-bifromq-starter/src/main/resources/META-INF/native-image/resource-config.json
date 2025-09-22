@@ -1,0 +1,37 @@
+{
+  "resources":{
+  "includes":[{
+    "pattern":"\\QMETA-INF/extensions.idx\\E"
+  }, {
+    "pattern":"\\QMETA-INF/native/libnetty_transport_native_kqueue_aarch_64.jnilib\\E"
+  }, {
+    "pattern":"\\QMETA-INF/org/apache/logging/log4j/core/config/plugins/Log4j2Plugins.dat\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/io.grpc.LoadBalancerProvider\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/io.grpc.NameResolverProvider\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/java.nio.file.spi.FileSystemProvider\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/org.apache.bifromq.dist.worker.spi.IDistWorkerBalancerFactory\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/org.apache.bifromq.inbox.store.spi.IInboxStoreBalancerFactory\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/org.apache.bifromq.retain.store.spi.IRetainStoreBalancerFactory\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/org.apache.logging.log4j.core.util.ContextDataProvider\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/org.apache.logging.log4j.spi.Provider\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/org.apache.logging.log4j.util.PropertySource\\E"
+  }, {
+    "pattern":"\\QMETA-INF/services/org.slf4j.spi.SLF4JServiceProvider\\E"
+  }, {
+    "pattern":"\\Qlibrocksdbjni-osx-arm64.jnilib\\E"
+  }, {
+    "pattern":"\\Qorg/apache/bifromq/plugin/eventcollector\\E"
+  }, {
+    "pattern":"\\Qorg/apache/bifromq/sysprops\\E"
+  }]},
+  "bundles":[]
+}
